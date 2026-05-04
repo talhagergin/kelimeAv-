@@ -4,6 +4,8 @@ final class GameScene: SKScene {
     private var tiles: [LetterTileNode] = []
     private let backgroundNode = SKShapeNode()
     private let scoreLabel = SKLabelNode(fontNamed: "AvenirNext-Heavy")
+    private let wordRevealActionKey = "wordReveal"
+    private let letterRevealActionKey = "letterReveal"
 
     override init(size: CGSize) {
         super.init(size: size)
@@ -25,6 +27,11 @@ final class GameScene: SKScene {
     }
 
     func configure(wordLength: Int) {
+        removeAction(forKey: wordRevealActionKey)
+        removeAction(forKey: letterRevealActionKey)
+        scoreLabel.removeAllActions()
+        scoreLabel.text = ""
+        scoreLabel.alpha = 0
         tiles.forEach { $0.removeFromParent() }
         tiles = []
 
@@ -60,7 +67,7 @@ final class GameScene: SKScene {
             self?.tiles[index].setLetter(letter, animated: true)
             self?.tiles[index].glow(color: SKColor(red: 1.0, green: 0.73, blue: 0.1, alpha: 1))
         })
-        run(.sequence(actions))
+        run(.sequence(actions), withKey: letterRevealActionKey)
     }
 
     func playCorrect(points: Int) {
@@ -84,21 +91,27 @@ final class GameScene: SKScene {
     }
 
     private func revealWord(_ word: String, points: Int, color: SKColor, showPoints: Bool) {
+        removeAction(forKey: wordRevealActionKey)
+        removeAction(forKey: letterRevealActionKey)
+        var actions: [SKAction] = []
+
         for (index, letter) in word.turkishLetters.enumerated() where tiles.indices.contains(index) {
             let wait = SKAction.wait(forDuration: Double(index) * 0.045)
             let reveal = SKAction.run { [weak self] in
                 self?.tiles[index].setLetter(letter, animated: true)
                 self?.tiles[index].glow(color: color)
             }
-            run(.sequence([wait, reveal]))
+            actions.append(.sequence([wait, reveal]))
         }
 
         if showPoints {
-            run(.sequence([
+            actions.append(.sequence([
                 .wait(forDuration: Double(word.count) * 0.045 + 0.1),
                 .run { [weak self] in self?.playCorrect(points: points) }
             ]))
         }
+
+        run(.group(actions), withKey: wordRevealActionKey)
     }
 
     func playWrong() {

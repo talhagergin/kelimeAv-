@@ -5,6 +5,7 @@ enum GameAnimationEvent: Equatable {
     case reveal(index: Int, letter: String)
     case correct(word: String, points: Int)
     case wrong(word: String)
+    case timeout(word: String)
     case insufficientCoins
     case lowTime(Bool)
     case joker(JokerType)
@@ -38,6 +39,7 @@ final class GameViewModel: ObservableObject {
     private let questionService: QuestionProviding
     private let scoreService: ScoreStoring
     private let soundService: SoundPlaying
+    private let privateChallenge: PrivateChallenge?
     private var timerTask: Task<Void, Never>?
     private var answerTimerTask: Task<Void, Never>?
     private var advanceTask: Task<Void, Never>?
@@ -48,12 +50,14 @@ final class GameViewModel: ObservableObject {
     init(
         mode: GameMode,
         level: Int = 1,
+        privateChallenge: PrivateChallenge? = nil,
         questionService: QuestionProviding? = nil,
         scoreService: ScoreStoring? = nil,
         soundService: SoundPlaying? = nil
     ) {
         self.mode = mode
         self.level = level
+        self.privateChallenge = privateChallenge
         self.questionService = questionService ?? QuestionService()
         self.scoreService = scoreService ?? ScoreService()
         self.soundService = soundService ?? SoundService()
@@ -121,7 +125,15 @@ final class GameViewModel: ObservableObject {
     }
 
     var canRevealLetter: Bool {
-        result == nil && hasHiddenLetter && !(mode == .classic && isAnswerWindowActive)
+        result == nil && hasHiddenLetter && !(requiresAnswerWindow && isAnswerWindowActive)
+    }
+
+    var canExtendClassicClue: Bool {
+        mode == .classic && !isShowingExtendedClue && result == nil
+    }
+
+    var challengeTitle: String? {
+        privateChallenge?.title
     }
 
     func start() {
@@ -133,9 +145,16 @@ final class GameViewModel: ObservableObject {
         answerText = ""
         animationEvent = nil
         isTimeFrozen = false
-        questions = mode == .classic
-            ? questionService.classicQuestions()
-            : questionService.challengeQuestions(level: level)
+        if let privateChallenge {
+            let sharedQuestions = questionService.questions(matching: privateChallenge.questionIDs)
+            questions = sharedQuestions.isEmpty
+                ? questionService.privateChallengeQuestions(count: privateChallenge.questionIDs.count, maxDifficulty: privateChallenge.maxDifficulty)
+                : sharedQuestions
+        } else {
+            questions = mode == .classic
+                ? questionService.classicQuestions()
+                : questionService.challengeQuestions(level: level)
+        }
         currentIndex = 0
         score = 0
         coins = scoreService.coins
@@ -146,14 +165,14 @@ final class GameViewModel: ObservableObject {
         revealedLetterCount = 0
         usedJokers = []
         result = nil
-        timeRemaining = mode == .classic ? 240 : max(70 - (level - 1) * 8, 35)
+        timeRemaining = privateChallenge?.totalTime ?? (mode == .classic ? 240 : max(70 - (level - 1) * 8, 35))
         prepareCurrentQuestion()
         startMainTimer()
     }
 
     func appendLetter(_ letter: String) {
         guard result == nil else { return }
-        if mode == .classic, !isAnswerWindowActive {
+        if requiresAnswerWindow, !isAnswerWindowActive {
             startAnswerWindow()
         }
         let maxLength = maxHiddenLetterCount
@@ -167,25 +186,33 @@ final class GameViewModel: ObservableObject {
     }
 
     func answerButtonTapped() {
-        if mode == .classic, !isAnswerWindowActive {
+        if requiresAnswerWindow, !isAnswerWindowActive {
             startAnswerWindow()
         } else {
             submitAnswer()
         }
     }
 
+    func extendClassicClue() {
+        guard canExtendClassicClue else { return }
+        isShowingExtendedClue = true
+        soundService.playJoker()
+        animationEvent = .joker(.extendClue)
+    }
+
     func submitAnswer() {
         guard let question = currentQuestion, result == nil else { return }
-        guard mode != .classic || isAnswerWindowActive else { return }
+        guard !requiresAnswerWindow || isAnswerWindowActive else { return }
 
         if composedAnswerText.turkishGameNormalized() == question.answer.turkishGameNormalized() {
-            score += currentPotentialScore
+            let earnedPoints = currentPotentialScore
+            score += earnedPoints
             correctCount += 1
             soundService.playCorrect()
             soundService.playWordReveal()
             openedIndices = Set(question.answer.turkishLetters.indices)
             answerText = ""
-            animationEvent = .correct(word: question.answer, points: currentPotentialScore)
+            animationEvent = .correct(word: question.answer, points: earnedPoints)
             moveToNextQuestionAfterDelay(seconds: 1.25)
         } else {
             wrongCount += 1
@@ -267,6 +294,10 @@ final class GameViewModel: ObservableObject {
         return openedIndices.count < question.letterCount
     }
 
+    private var requiresAnswerWindow: Bool {
+        mode == .classic || mode == .privateChallenge
+    }
+
     private var maxHiddenLetterCount: Int {
         guard let question = currentQuestion else { return 0 }
         return question.answer.turkishLetters.indices.filter { !openedIndices.contains($0) }.count
@@ -336,7 +367,8 @@ final class GameViewModel: ObservableObject {
     private func startAnswerWindow() {
         guard result == nil else { return }
         let revision = questionRevision
-        answerWindowRemaining = 15
+        answerWindowRemaining = 10
+        soundService.playTension()
         answerTimerTask?.cancel()
         answerTimerTask = Task { [weak self] in
             while !Task.isCancelled {
@@ -361,8 +393,20 @@ final class GameViewModel: ObservableObject {
         }
 
         if answerWindowRemaining == 0 {
-            submitAnswer()
+            expireAnswerWindow()
         }
+    }
+
+    private func expireAnswerWindow() {
+        guard let question = currentQuestion, result == nil else { return }
+        answerTimerTask?.cancel()
+        answerWindowRemaining = 0
+        wrongCount += 1
+        soundService.playWrong()
+        openedIndices = Set(question.answer.turkishLetters.indices)
+        answerText = ""
+        animationEvent = .timeout(word: question.answer)
+        moveToNextQuestionAfterDelay(seconds: 1.65)
     }
 
     private func moveToNextQuestionAfterDelay(seconds: Double) {
@@ -425,7 +469,7 @@ final class GameViewModel: ObservableObject {
 
         if mode == .classic {
             scoreService.saveClassicScore(score)
-        } else {
+        } else if mode == .challenge {
             scoreService.saveStars(stars, forLevel: level)
         }
 

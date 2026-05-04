@@ -15,6 +15,8 @@ private enum AppScreen {
     case menu
     case classic
     case challenge
+    case privateChallengeSetup
+    case privateChallengeGame(PrivateChallenge)
     case shop
     case scores
     case settings
@@ -46,6 +48,7 @@ private struct RootView: View {
                 MainMenuView(
                     onClassic: { screen = .classic },
                     onChallenge: { screen = .challenge },
+                    onPrivateChallenge: { screen = .privateChallengeSetup },
                     onShop: { screen = .shop },
                     onScores: { screen = .scores },
                     onSettings: { screen = .settings }
@@ -56,6 +59,17 @@ private struct RootView: View {
                 }
             case .challenge:
                 GameView(viewModel: GameViewModel(mode: .challenge, level: 1)) {
+                    screen = .menu
+                }
+            case .privateChallengeSetup:
+                PrivateChallengeSetupView(
+                    onStart: { challenge in
+                        screen = .privateChallengeGame(challenge)
+                    },
+                    onBack: { screen = .menu }
+                )
+            case let .privateChallengeGame(challenge):
+                GameView(viewModel: GameViewModel(mode: .privateChallenge, privateChallenge: challenge)) {
                     screen = .menu
                 }
             case .shop:
@@ -71,6 +85,10 @@ private struct RootView: View {
                     screen = .menu
                 }
             }
+        }
+        .onOpenURL { url in
+            guard let challenge = PrivateChallengeService().challenge(from: url.absoluteString) else { return }
+            screen = .privateChallengeGame(challenge)
         }
     }
 }

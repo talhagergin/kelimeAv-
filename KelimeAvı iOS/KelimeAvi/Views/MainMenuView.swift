@@ -5,6 +5,7 @@ struct MainMenuView: View {
 
     let onClassic: () -> Void
     let onChallenge: () -> Void
+    let onPrivateChallenge: () -> Void
     let onShop: () -> Void
     let onScores: () -> Void
     let onSettings: () -> Void
@@ -28,6 +29,7 @@ struct MainMenuView: View {
             VStack(spacing: 14) {
                 MenuButton(title: "Klasik Mod", icon: "timer", action: onClassic)
                 MenuButton(title: "Challenge Mod", icon: "star.fill", action: onChallenge)
+                MenuButton(title: "Private Challenge", icon: "person.2.fill", action: onPrivateChallenge)
                 MenuButton(title: "Mağaza", icon: "cart.fill", action: onShop)
                 MenuButton(title: "Skorlar", icon: "chart.bar.fill", action: onScores)
                 MenuButton(title: "Ayarlar", icon: "gearshape.fill", action: onSettings)

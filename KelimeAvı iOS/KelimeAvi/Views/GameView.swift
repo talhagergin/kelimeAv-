@@ -151,6 +151,13 @@ struct GameView: View {
                 .lineLimit(2)
                 .minimumScaleFactor(0.72)
                 .frame(maxWidth: .infinity)
+
+            if let challengeTitle = viewModel.challengeTitle {
+                Text(challengeTitle)
+                    .font(.caption2.weight(.black))
+                    .foregroundStyle(.white.opacity(0.64))
+                    .lineLimit(1)
+            }
         }
         .padding(.horizontal, 16)
         .frame(height: height)
@@ -187,6 +194,12 @@ struct GameView: View {
                         showJokers.toggle()
                     }
                 }
+            } else if viewModel.mode == .classic {
+                ActionButton(title: "İpucu", icon: "lightbulb.fill", color: GameTheme.orange, height: height) {
+                    viewModel.extendClassicClue()
+                }
+                .disabled(!viewModel.canExtendClassicClue)
+                .opacity(viewModel.canExtendClassicClue ? 1 : 0.42)
             }
         }
     }
@@ -213,10 +226,10 @@ struct GameView: View {
     }
 
     private var answerButtonTitle: String {
-        if viewModel.mode == .classic, viewModel.isAnswerWindowActive {
+        if (viewModel.mode == .classic || viewModel.mode == .privateChallenge), viewModel.isAnswerWindowActive {
             return "Cevapla \(viewModel.answerWindowRemaining)"
         }
-        return viewModel.mode == .classic ? "Süreyi Durdur" : "Cevapla"
+        return (viewModel.mode == .classic || viewModel.mode == .privateChallenge) ? "Süreyi Durdur" : "Cevapla"
     }
 
     private var timeText: String {
@@ -240,6 +253,9 @@ struct GameView: View {
         case let .wrong(word):
             scene.revealWrongWord(word)
             showFeedback(.wrong(answer: word))
+        case let .timeout(word):
+            scene.revealWrongWord(word)
+            showFeedback(.timeout(answer: word))
         case .insufficientCoins:
             showFeedback(.insufficientCoins)
         case let .lowTime(active):
@@ -290,12 +306,14 @@ private struct GameLayoutMetrics {
 private enum FeedbackState: Equatable {
     case correct(points: Int)
     case wrong(answer: String)
+    case timeout(answer: String)
     case insufficientCoins
 
     var title: String {
         switch self {
         case .correct: "DOĞRU!"
         case .wrong: "YANLIŞ"
+        case .timeout: "SÜRE DOLDU"
         case .insufficientCoins: "YETERSİZ ALTIN"
         }
     }
@@ -304,6 +322,7 @@ private enum FeedbackState: Equatable {
         switch self {
         case let .correct(points): "+\(points) puan"
         case let .wrong(answer): "Cevap: \(answer)"
+        case .timeout: "+0 puan"
         case .insufficientCoins: "Reklam izleyerek altın kazan"
         }
     }
@@ -312,6 +331,7 @@ private enum FeedbackState: Equatable {
         switch self {
         case .correct: .green
         case .wrong: .red
+        case .timeout: GameTheme.orange
         case .insufficientCoins: GameTheme.orange
         }
     }
@@ -320,6 +340,7 @@ private enum FeedbackState: Equatable {
         switch self {
         case .correct: "checkmark.seal.fill"
         case .wrong: "xmark.octagon.fill"
+        case .timeout: "timer"
         case .insufficientCoins: "bitcoinsign.circle.fill"
         }
     }

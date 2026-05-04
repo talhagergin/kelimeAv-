@@ -3,6 +3,7 @@ import Foundation
 enum GameMode: String, CaseIterable, Identifiable {
     case classic
     case challenge
+    case privateChallenge
 
     var id: String { rawValue }
 
@@ -10,6 +11,7 @@ enum GameMode: String, CaseIterable, Identifiable {
         switch self {
         case .classic: "Klasik Mod"
         case .challenge: "Challenge Mod"
+        case .privateChallenge: "Private Challenge"
         }
     }
 }
