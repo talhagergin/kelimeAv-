@@ -195,7 +195,7 @@ struct GameView: View {
                     }
                 }
             } else if viewModel.mode == .classic {
-                ActionButton(title: "İpucu", icon: "lightbulb.fill", color: GameTheme.orange, height: height) {
+                ActionButton(title: "İpucu \(viewModel.inventoryCount(for: .extendClue))", icon: "lightbulb.fill", color: GameTheme.orange, height: height) {
                     viewModel.extendClassicClue()
                 }
                 .disabled(!viewModel.canExtendClassicClue)
@@ -256,6 +256,9 @@ struct GameView: View {
         case let .timeout(word):
             scene.revealWrongWord(word)
             showFeedback(.timeout(answer: word))
+        case let .failed(word, penalty):
+            scene.revealWrongWord(word)
+            showFeedback(.failed(penalty: penalty))
         case .insufficientCoins:
             showFeedback(.insufficientCoins)
         case let .lowTime(active):
@@ -307,6 +310,7 @@ private enum FeedbackState: Equatable {
     case correct(points: Int)
     case wrong(answer: String)
     case timeout(answer: String)
+    case failed(penalty: Int)
     case insufficientCoins
 
     var title: String {
@@ -314,6 +318,7 @@ private enum FeedbackState: Equatable {
         case .correct: "DOĞRU!"
         case .wrong: "YANLIŞ"
         case .timeout: "SÜRE DOLDU"
+        case .failed: "CEVAPLANAMADI"
         case .insufficientCoins: "YETERSİZ ALTIN"
         }
     }
@@ -323,6 +328,7 @@ private enum FeedbackState: Equatable {
         case let .correct(points): "+\(points) puan"
         case let .wrong(answer): "Cevap: \(answer)"
         case .timeout: "+0 puan"
+        case let .failed(penalty): "-\(penalty) puan"
         case .insufficientCoins: "Reklam izleyerek altın kazan"
         }
     }
@@ -332,6 +338,7 @@ private enum FeedbackState: Equatable {
         case .correct: .green
         case .wrong: .red
         case .timeout: GameTheme.orange
+        case .failed: .red
         case .insufficientCoins: GameTheme.orange
         }
     }
@@ -341,6 +348,7 @@ private enum FeedbackState: Equatable {
         case .correct: "checkmark.seal.fill"
         case .wrong: "xmark.octagon.fill"
         case .timeout: "timer"
+        case .failed: "minus.circle.fill"
         case .insufficientCoins: "bitcoinsign.circle.fill"
         }
     }

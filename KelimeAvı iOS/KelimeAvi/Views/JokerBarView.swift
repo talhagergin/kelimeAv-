@@ -11,7 +11,7 @@ struct JokerBarView: View {
                     .font(.caption.weight(.black))
                     .foregroundStyle(.white.opacity(0.82))
                 Spacer()
-                Label("\(viewModel.coins)", systemImage: "bitcoinsign.circle.fill")
+                Text("Haklarını mağazadan al")
                     .font(.caption2.weight(.bold))
                     .foregroundStyle(GameTheme.yellow.opacity(0.95))
             }
@@ -55,7 +55,7 @@ struct JokerBarView: View {
                                 .font(.caption2.weight(.bold))
                                 .lineLimit(1)
                                 .minimumScaleFactor(0.48)
-                            Text("\(viewModel.jokerCost) altın")
+                            Text("\(viewModel.inventoryCount(for: joker)) hak")
                                 .font(.system(size: 9, weight: .black))
                                 .foregroundStyle(GameTheme.yellow)
                         }

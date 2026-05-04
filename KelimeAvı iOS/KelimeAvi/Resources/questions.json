@@ -332,6 +332,2706 @@
     "category": "Günlük Yaşam",
     "letterCount": 6
   },
+    {
+      "id": "22222222-2222-2222-2222-000000000001",
+      "clue": "Bir cismin etrafında döndüğü varsayılan çizgi",
+      "extendedClue": "Geometride veya makinelerde dönme merkezini belirten çizgi",
+      "answer": "AKS",
+      "difficulty": 4,
+      "category": "Teknik",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000002",
+      "clue": "Bir malın piyasaya sunulan miktarı",
+      "extendedClue": "Talep kavramının karşıtı olarak üreticinin sunduğu miktar",
+      "answer": "ARZ",
+      "difficulty": 4,
+      "category": "Ekonomi",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000003",
+      "clue": "Söyleyiş ve davranış biçimi",
+      "extendedClue": "Bir kişinin sözünde ya da tavrında beliren anlatım tarzı",
+      "answer": "EDA",
+      "difficulty": 3,
+      "category": "Edebiyat",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000004",
+      "clue": "Sesin yansıyıp tekrar duyulması",
+      "extendedClue": "Boşlukta ya da dağlık alanda sesin geri dönmesi",
+      "answer": "EKO",
+      "difficulty": 3,
+      "category": "Müzik",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000005",
+      "clue": "Sönmemiş kızgın ateş parçası",
+      "extendedClue": "Odun ya da kömür yandıktan sonra kalan kızıl sıcak parça",
+      "answer": "KOR",
+      "difficulty": 3,
+      "category": "Doğa",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000006",
+      "clue": "Nemli yerde oluşan mantarsı tabaka",
+      "extendedClue": "Yiyecek veya duvar yüzeyinde beliren mikroskobik canlı tabakası",
+      "answer": "KÜF",
+      "difficulty": 3,
+      "category": "Biyoloji",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000007",
+      "clue": "Bir dilin bölgesel konuşma çeşidi",
+      "extendedClue": "Ağız ya da şiveyle ilişkili dil farklılığı",
+      "answer": "LEH",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000008",
+      "clue": "Bir bütünü oluşturan temel parça",
+      "extendedClue": "Cümlede veya sistemde görev üstlenen unsur",
+      "answer": "ÖGE",
+      "difficulty": 3,
+      "category": "Dil Bilgisi",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000009",
+      "clue": "Trenin üzerinde hareket ettiği metal yol",
+      "extendedClue": "Demiryolu taşıtlarının tekerleklerini yönlendiren uzun çubuk",
+      "answer": "RAY",
+      "difficulty": 3,
+      "category": "Ulaşım",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000000a",
+      "clue": "Eski dilde kötülük ya da olumsuz durum",
+      "extendedClue": "Hayır kelimesinin karşıtı olarak kullanılan Arapça kökenli sözcük",
+      "answer": "ŞER",
+      "difficulty": 5,
+      "category": "Hukuk",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000000b",
+      "clue": "Değişenin arkasındaki kalıcı öz",
+      "extendedClue": "Felsefede varlığın temel dayanağı sayılan kavram",
+      "answer": "TÖZ",
+      "difficulty": 5,
+      "category": "Felsefe",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000000c",
+      "clue": "Kumaş kırışıklığını gidermeye yarayan araç",
+      "extendedClue": "Isı ve buharla giysileri düzleştiren ev aleti",
+      "answer": "UTU",
+      "difficulty": 2,
+      "category": "Ev Eşyası",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000000d",
+      "clue": "Bir yere doğru olan doğrultu",
+      "extendedClue": "Kuzey, güney gibi konum belirten kavram",
+      "answer": "YÖN",
+      "difficulty": 2,
+      "category": "Coğrafya",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000000e",
+      "clue": "Kişinin ya da varlığın kendisi",
+      "extendedClue": "Eski dilde şahıs veya öz anlamına gelir",
+      "answer": "ZAT",
+      "difficulty": 4,
+      "category": "Felsefe",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000000f",
+      "clue": "Dağ yamacından kopup yuvarlanan kar kütlesi",
+      "extendedClue": "Karlı bölgelerde büyük tehlike oluşturan doğal olay",
+      "answer": "ÇIĞ",
+      "difficulty": 3,
+      "category": "Doğa",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000010",
+      "clue": "Elektronik devre içeren küçük parça",
+      "extendedClue": "Bilgisayar ve kartlarda kullanılan mikro devre elemanı",
+      "answer": "ÇİP",
+      "difficulty": 3,
+      "category": "Teknoloji",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000011",
+      "clue": "Yağışın çok az olduğu kurak bölge",
+      "extendedClue": "Kumulların ve kurak iklimin baskın olduğu geniş alan",
+      "answer": "ÇÖL",
+      "difficulty": 2,
+      "category": "Coğrafya",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000012",
+      "clue": "Bacakta uylukla baldır arasındaki eklem",
+      "extendedClue": "Yürürken bükülen ana bacak eklemi",
+      "answer": "DİZ",
+      "difficulty": 2,
+      "category": "Anatomi",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000013",
+      "clue": "Eski dilde benlik anlamına gelen kavram",
+      "extendedClue": "Tasavvuf ve felsefe metinlerinde kişinin ben duygusu",
+      "answer": "ENE",
+      "difficulty": 5,
+      "category": "Felsefe",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000014",
+      "clue": "Kalıtsal özellikleri taşıyan DNA parçası",
+      "extendedClue": "Canlılarda özelliklerin nesillere aktarılmasını sağlayan birim",
+      "answer": "GEN",
+      "difficulty": 3,
+      "category": "Biyoloji",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000015",
+      "clue": "Güzel yazı sanatı",
+      "extendedClue": "Arap harfleriyle estetik yazı oluşturma geleneği",
+      "answer": "HAT",
+      "difficulty": 4,
+      "category": "Sanat",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000016",
+      "clue": "Öfke ve kırgınlıkla karışık duygu",
+      "extendedClue": "İçte tutulan kızgınlık veya intikam isteği",
+      "answer": "HIN",
+      "difficulty": 4,
+      "category": "Duygu",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000017",
+      "clue": "Dolaylı anlatım yoluyla sezdirme",
+      "extendedClue": "Bir şeyi açıkça söylemeden anlatma sanatı",
+      "answer": "İMA",
+      "difficulty": 4,
+      "category": "Dil",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000018",
+      "clue": "Yarı katı kıvamlı madde",
+      "extendedClue": "Saç şekillendirme veya laboratuvar ortamında kullanılan kıvam",
+      "answer": "JEL",
+      "difficulty": 2,
+      "category": "Kimya",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000019",
+      "clue": "Uzun süre saklanan düşmanlık duygusu",
+      "extendedClue": "Geçmiş bir olaydan kalan güçlü öfke",
+      "answer": "KİN",
+      "difficulty": 4,
+      "category": "Duygu",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000001a",
+      "clue": "İnce ipliksi yapı",
+      "extendedClue": "Bitkide, kas dokusunda veya kumaşta bulunan telcik",
+      "answer": "LİF",
+      "difficulty": 3,
+      "category": "Biyoloji",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000001b",
+      "clue": "Dönen parçaları taşıyan silindirik çubuk",
+      "extendedClue": "Motor ve makinelerde hareketi aktaran eksen parçası",
+      "answer": "MİL",
+      "difficulty": 4,
+      "category": "Mekanik",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000001c",
+      "clue": "Havadaki su buharı miktarı",
+      "extendedClue": "Islaklık hissi veren atmosfer özelliği",
+      "answer": "NEM",
+      "difficulty": 2,
+      "category": "Doğa",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000001d",
+      "clue": "Çevresine göre alçak ve düz geniş arazi",
+      "extendedClue": "Tarım için elverişli düz yeryüzü şekli",
+      "answer": "OVA",
+      "difficulty": 2,
+      "category": "Coğrafya",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000001e",
+      "clue": "Toplumda yerleşmiş geleneksel davranış",
+      "extendedClue": "Yazılı olmayan sosyal kural ya da alışkanlık",
+      "answer": "ÖRF",
+      "difficulty": 4,
+      "category": "Kültür",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000001f",
+      "clue": "Kimyasal enerjiyi elektriğe çeviren araç",
+      "extendedClue": "Kumanda ve oyuncaklarda güç sağlayan küçük kaynak",
+      "answer": "PİL",
+      "difficulty": 2,
+      "category": "Teknoloji",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000020",
+      "clue": "Canlıya yaşam verdiği düşünülen manevi öz",
+      "extendedClue": "Bedenin karşıtı olarak kullanılan soyut varlık kavramı",
+      "answer": "RUH",
+      "difficulty": 3,
+      "category": "Felsefe",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000021",
+      "clue": "Başkalarından saklanan bilgi",
+      "extendedClue": "Herkesin bilmemesi gereken gizli durum",
+      "answer": "SIR",
+      "difficulty": 2,
+      "category": "Gündelik",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000022",
+      "clue": "Ani sarsıntı ya da dolaşım bozukluğu durumu",
+      "extendedClue": "Tıpta hayati tehlike yaratabilen ani sistem çöküşü",
+      "answer": "ŞOK",
+      "difficulty": 4,
+      "category": "Tıp",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000023",
+      "clue": "Manevi varlık veya ruh anlamında kavram",
+      "extendedClue": "Düşünce tarihinde ruhla ilişkili soyut terim",
+      "answer": "TİN",
+      "difficulty": 5,
+      "category": "Felsefe",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000024",
+      "clue": "Çiçek koymaya yarayan kap",
+      "extendedClue": "Genellikle masada süs olarak kullanılan uzun kap",
+      "answer": "VAZ",
+      "difficulty": 2,
+      "category": "Eşya",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000025",
+      "clue": "Yabancı veya hatırlama anlamı taşıyan eski kelime",
+      "extendedClue": "Şiirlerde gurbet ve anı duygusuyla kullanılan sözcük",
+      "answer": "YAD",
+      "difficulty": 5,
+      "category": "Edebiyat",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000026",
+      "clue": "Çayın kıvamlı özü veya zaman anlamı",
+      "extendedClue": "Çaydanlıkta renk ve tat veren yoğun bölüm",
+      "answer": "DEM",
+      "difficulty": 3,
+      "category": "Kültür",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000027",
+      "clue": "Arka plan veya temel zemin",
+      "extendedClue": "Görsel tasarımda ana öğenin arkasında kalan alan",
+      "answer": "FON",
+      "difficulty": 3,
+      "category": "Sanat",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000028",
+      "clue": "Bilgisayara verilen komutlar bütünü",
+      "extendedClue": "Yazılımın metin halinde yazılmış talimatları",
+      "answer": "KOD",
+      "difficulty": 2,
+      "category": "Teknoloji",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000029",
+      "clue": "Toplumların eski çağlardan gelen kutsal anlatısı",
+      "extendedClue": "Tanrılar ve kahramanlar üzerine kurulu geleneksel hikaye",
+      "answer": "MİT",
+      "difficulty": 4,
+      "category": "Edebiyat",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000002a",
+      "clue": "Bilardo veya kart oyunlarında kullanılan kap ya da bahis alanı",
+      "extendedClue": "Bazı oyunlarda topların girdiği yer veya ortaya konan miktar",
+      "answer": "POT",
+      "difficulty": 4,
+      "category": "Oyun",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000002b",
+      "clue": "Eski metinlerde iyileştirme anlamıyla kullanılan kök",
+      "extendedClue": "Şifa kavramını çağrıştıran kısa sözcük",
+      "answer": "ŞİF",
+      "difficulty": 5,
+      "category": "Tıp",
+      "letterCount": 3
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000002c",
+      "clue": "Kalıcı bir anı için yapılmış eser",
+      "extendedClue": "Bir kişiyi ya da olayı yaşatmak için dikilen yapı",
+      "answer": "ABİT",
+      "difficulty": 4,
+      "category": "Tarih",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000002d",
+      "clue": "Uyum ve ölçülü bütünlük",
+      "extendedClue": "Ses, renk veya davranışlar arasındaki dengeli uyum",
+      "answer": "AHEN",
+      "difficulty": 4,
+      "category": "Sanat",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000002e",
+      "clue": "Yansıma veya geri tepme etkisi",
+      "extendedClue": "Işık ya da sesin bir yüzeye çarpıp dönmesi",
+      "answer": "AKİS",
+      "difficulty": 4,
+      "category": "Fizik",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000002f",
+      "clue": "Metinde bölümleri ayıran işaret",
+      "extendedClue": "Noktalama içinde ayrım görevi gören sembol",
+      "answer": "AYRA",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000030",
+      "clue": "Şiirde birkaç dizeden oluşan bölüm",
+      "extendedClue": "Nazım yapısında kıta benzeri parça",
+      "answer": "BENT",
+      "difficulty": 4,
+      "category": "Edebiyat",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000031",
+      "clue": "Eski kullanımda cebirle ilişkili alan",
+      "extendedClue": "Bilinmeyenlerle işlem yapan matematik dalına yakın terim",
+      "answer": "CEBE",
+      "difficulty": 5,
+      "category": "Matematik",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000032",
+      "clue": "Dar ve uzun geçit",
+      "extendedClue": "Bina içinde tünel gibi uzanan koridor",
+      "answer": "DEHL",
+      "difficulty": 5,
+      "category": "Mimari",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000033",
+      "clue": "Şiirdeki her bir satır",
+      "extendedClue": "Nazım eserlerinde mısra olarak da bilinen satır",
+      "answer": "DİZE",
+      "difficulty": 3,
+      "category": "Edebiyat",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000034",
+      "clue": "Bir doğrunun yataya göre diklik oranı",
+      "extendedClue": "Grafikte yükselme ve ilerleme arasındaki ilişki",
+      "answer": "EĞİM",
+      "difficulty": 4,
+      "category": "Matematik",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000035",
+      "clue": "Ekosistemle ilişkili kısa teknik kök",
+      "extendedClue": "Canlı ve çevre ilişkisini çağrıştıran terim",
+      "answer": "EKOZ",
+      "difficulty": 5,
+      "category": "Biyoloji",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000036",
+      "clue": "Klasik Türk müziğinde bölümlü icra",
+      "extendedClue": "Birden çok eserin ardışık çalındığı geleneksel müzik düzeni",
+      "answer": "FASIL",
+      "difficulty": 5,
+      "category": "Müzik",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000037",
+      "clue": "İş, oluş veya hareket bildiren kelime",
+      "extendedClue": "Cümlede eylemi gösteren sözcük türü",
+      "answer": "FİİL",
+      "difficulty": 2,
+      "category": "Dil Bilgisi",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000038",
+      "clue": "Ulaşılmak istenen amaç",
+      "extendedClue": "Bir davranışın yöneldiği hedef",
+      "answer": "GAYE",
+      "difficulty": 3,
+      "category": "Felsefe",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000039",
+      "clue": "Sisteme verilen veri",
+      "extendedClue": "Programın işlemek üzere aldığı bilgi",
+      "answer": "GİRD",
+      "difficulty": 4,
+      "category": "Teknoloji",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000003a",
+      "clue": "Engel olan, araya giren şey",
+      "extendedClue": "Eski metinlerde perde veya mani anlamında kullanılır",
+      "answer": "HAİL",
+      "difficulty": 5,
+      "category": "Edebiyat",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000003b",
+      "clue": "Yargı veya karar anlamı taşıyan eski biçim",
+      "extendedClue": "Mahkeme ya da akıl yürütme sonucu verilen sonuç",
+      "answer": "HÜKM",
+      "difficulty": 5,
+      "category": "Hukuk",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000003c",
+      "clue": "Sembol niteliği kazanmış görüntü",
+      "extendedClue": "Dini sanatta ya da dijital arayüzde anlam taşıyan resim",
+      "answer": "İKON",
+      "difficulty": 4,
+      "category": "Sanat",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000003d",
+      "clue": "Bir şeyi açıklama",
+      "extendedClue": "Anlaşılmayan konuyu ayrıntılı anlatma işi",
+      "answer": "İZAH",
+      "difficulty": 3,
+      "category": "Dil",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000003e",
+      "clue": "Eski dönemde yargı görevi yapan kişi",
+      "extendedClue": "Osmanlı ve İslam hukukunda karar veren görevli",
+      "answer": "KADİ",
+      "difficulty": 5,
+      "category": "Hukuk",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000003f",
+      "clue": "Akrabalık bağına dayanan topluluk",
+      "extendedClue": "Ortak köken iddiasıyla birleşen grup",
+      "answer": "KLAN",
+      "difficulty": 4,
+      "category": "Sosyoloji",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000040",
+      "clue": "Avrupa soyluluk unvanlarından biri",
+      "extendedClue": "Dükten aşağı sayılan aristokrat unvan",
+      "answer": "KONT",
+      "difficulty": 4,
+      "category": "Tarih",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000041",
+      "clue": "Bir şeyin iç yüzü ve özü",
+      "extendedClue": "Derin gerçekliği ya da mahiyeti ifade eder",
+      "answer": "KÜNH",
+      "difficulty": 5,
+      "category": "Felsefe",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000042",
+      "clue": "Peru'nun başkenti",
+      "extendedClue": "Güney Amerika'da Pasifik kıyısına yakın büyük şehir",
+      "answer": "LİMA",
+      "difficulty": 3,
+      "category": "Coğrafya",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000043",
+      "clue": "Anlam veya içerik",
+      "extendedClue": "Bir sözün taşıdığı düşünsel karşılık",
+      "answer": "MANA",
+      "difficulty": 3,
+      "category": "Dil",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000044",
+      "clue": "Şaka ve eğlenceyle ilgili eski kök",
+      "extendedClue": "Mizah kavramını çağrıştıran kısa ifade",
+      "answer": "MİZA",
+      "difficulty": 5,
+      "category": "Duygu",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000045",
+      "clue": "Bir şeyin çekirdeği veya başlangıç özü",
+      "extendedClue": "Büyüyüp gelişecek yapının küçük merkezi",
+      "answer": "NÜVE",
+      "difficulty": 4,
+      "category": "Bilim",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000046",
+      "clue": "Özne karşısında yer alan nesne",
+      "extendedClue": "Bilginin yöneldiği dış varlık",
+      "answer": "OBJE",
+      "difficulty": 4,
+      "category": "Felsefe",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000047",
+      "clue": "Gözlenebilir gerçek durum",
+      "extendedClue": "Kanıtlanabilir veya incelenebilir olay ya da durum",
+      "answer": "OLGU",
+      "difficulty": 3,
+      "category": "Bilim",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000048",
+      "clue": "Cümlede işi yapan ya da yüklemin bildirdiği varlık",
+      "extendedClue": "Fiilin kim tarafından yapıldığını gösteren unsur",
+      "answer": "ÖZNE",
+      "difficulty": 3,
+      "category": "Dil Bilgisi",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000049",
+      "clue": "Rütbe, derece veya onursal unvan",
+      "extendedClue": "Bir kişiye verilen makam değeri",
+      "answer": "PAYE",
+      "difficulty": 4,
+      "category": "Tarih",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000004a",
+      "clue": "Uygun görülen veya layık sayılan şey",
+      "extendedClue": "Bir davranışın yakışır bulunması anlamında kullanılır",
+      "answer": "REVA",
+      "difficulty": 4,
+      "category": "Dil",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000004b",
+      "clue": "Zarar veya kayıp olasılığı",
+      "extendedClue": "Karar verirken göze alınan belirsizlik",
+      "answer": "RİSK",
+      "difficulty": 3,
+      "category": "Ekonomi",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000004c",
+      "clue": "Eski dilde yüzey anlamına gelen kelime",
+      "extendedClue": "Bir cismin dış düzlemini ifade eder",
+      "answer": "SATH",
+      "difficulty": 5,
+      "category": "Geometri",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000004d",
+      "clue": "Mevlevi geleneğinde dönerek yapılan ayin",
+      "extendedClue": "Gökyüzü anlamı da taşıyan tasavvufi terim",
+      "answer": "SEMA",
+      "difficulty": 4,
+      "category": "Kültür",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000004e",
+      "clue": "Bir yapıyı özetleyen çizim",
+      "extendedClue": "Bilgiyi kutu ve çizgilerle gösteren plan",
+      "answer": "ŞEMA",
+      "difficulty": 3,
+      "category": "Tasarım",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000004f",
+      "clue": "Yorumlama veya anlam verme işiyle ilgili eski sözcük",
+      "extendedClue": "Metnin kapalı anlamını açıklamaya yönelik kavram",
+      "answer": "TEVİ",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000050",
+      "clue": "Rüzgarlı yoğun kar yağışı",
+      "extendedClue": "Görüşü azaltan sert kış olayı",
+      "answer": "TİPİ",
+      "difficulty": 3,
+      "category": "Doğa",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000051",
+      "clue": "Gökle yerin birleşir gibi göründüğü çizgi",
+      "extendedClue": "Görüş sınırını belirten uzak çizgi",
+      "answer": "UFKU",
+      "difficulty": 3,
+      "category": "Coğrafya",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000052",
+      "clue": "Anlatım tarzıyla ilgili eski biçim",
+      "extendedClue": "Yazarın dili kullanma yolunu çağrıştırır",
+      "answer": "ÜSLU",
+      "difficulty": 5,
+      "category": "Edebiyat",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000053",
+      "clue": "Bir kararı engelleme yetkisi",
+      "extendedClue": "Onaylanmış görünen bir işlemi durdurma hakkı",
+      "answer": "VETO",
+      "difficulty": 4,
+      "category": "Siyaset",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000054",
+      "clue": "Sesin geri dönüşüyle ilgili kök",
+      "extendedClue": "Yankı kavramını çağrıştıran kısa biçim",
+      "answer": "YANK",
+      "difficulty": 5,
+      "category": "Fizik",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000055",
+      "clue": "Fiili zaman, yer veya durum bakımından belirten sözcük",
+      "extendedClue": "Cümlede eylemi niteleyen kelime türü",
+      "answer": "ZARF",
+      "difficulty": 3,
+      "category": "Dil Bilgisi",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000056",
+      "clue": "Akıl ve düşünme yetisini anlatan eski biçim",
+      "extendedClue": "Düşünce süreçlerinin gerçekleştiği soyut alan",
+      "answer": "ZİHN",
+      "difficulty": 5,
+      "category": "Felsefe",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000057",
+      "clue": "Yolculukta taşınan eşya bölümü",
+      "extendedClue": "Otobüs veya uçakta valizlerin konduğu alan",
+      "answer": "BAGAJ",
+      "difficulty": 2,
+      "category": "Ulaşım",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000058",
+      "clue": "Gazete ve haber yayın organlarının bütünü",
+      "extendedClue": "Kamuoyuna haber ulaştıran kurumlar alanı",
+      "answer": "BASIN",
+      "difficulty": 3,
+      "category": "Medya",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000059",
+      "clue": "Derin bilgi ve olgunluk sahibi kişi",
+      "extendedClue": "Sadece çok bilen değil doğru yargılayan insan",
+      "answer": "BİLGE",
+      "difficulty": 4,
+      "category": "Felsefe",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000005a",
+      "clue": "Bilinmeyenlerle işlem yapan dal",
+      "extendedClue": "Denklemler ve sembollerle çalışan matematik alanı",
+      "answer": "CEBİR",
+      "difficulty": 4,
+      "category": "Matematik",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000005b",
+      "clue": "Yüz görünüşü veya dış görünüm",
+      "extendedClue": "Bir kişinin yüz ifadesini ya da kentin görüntüsünü anlatır",
+      "answer": "ÇEHRE",
+      "difficulty": 4,
+      "category": "Dil",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000005c",
+      "clue": "Bir şeyin önem veya karşılık ölçüsü",
+      "extendedClue": "Maddi ya da manevi kıymet anlamına gelir",
+      "answer": "DEĞER",
+      "difficulty": 3,
+      "category": "Ekonomi",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000005d",
+      "clue": "Kuvvetlerin birbirini karşıladığı durum",
+      "extendedClue": "Sistemin kararlı ve bozulmamış hali",
+      "answer": "DENGE",
+      "difficulty": 3,
+      "category": "Fizik",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000005e",
+      "clue": "Metni baskıya uygun biçimde düzenleme",
+      "extendedClue": "Harfleri ve satırları sayfa yapısına yerleştirme işi",
+      "answer": "DİZGİ",
+      "difficulty": 5,
+      "category": "Yayıncılık",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000005f",
+      "clue": "Simetri veya dönme çizgisi",
+      "extendedClue": "Şeklin ortasından geçtiği varsayılan doğru",
+      "answer": "EKSEN",
+      "difficulty": 4,
+      "category": "Geometri",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000060",
+      "clue": "Bir durumu gösteren belirti",
+      "extendedClue": "Kesin kanıt olmayan ama izlenim veren işaret",
+      "answer": "EMARE",
+      "difficulty": 5,
+      "category": "Hukuk",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000061",
+      "clue": "Melodi oluşturan ses dizisi",
+      "extendedClue": "Bir şarkının akılda kalan müzikal çizgisi",
+      "answer": "EZGİ",
+      "difficulty": 3,
+      "category": "Müzik",
+      "letterCount": 4
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000062",
+      "clue": "Zihinde oluşan düşünce",
+      "extendedClue": "Bir konuda ileri sürülen görüş ya da kanaat",
+      "answer": "FİKİR",
+      "difficulty": 3,
+      "category": "Felsefe",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000063",
+      "clue": "Çözülmesi zor sır havası",
+      "extendedClue": "Merak uyandıran bilinmezlik duygusu",
+      "answer": "GİZEM",
+      "difficulty": 4,
+      "category": "Edebiyat",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000064",
+      "clue": "İçinde bir şey biriktiren bölüm",
+      "extendedClue": "Makine ya da kapta depolama görevi gören kısım",
+      "answer": "HAZNE",
+      "difficulty": 4,
+      "category": "Mekanik",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000065",
+      "clue": "Bir ortaklıktaki pay",
+      "extendedClue": "Şirket sermayesinin bölünmüş parçası",
+      "answer": "HİSSE",
+      "difficulty": 3,
+      "category": "Ekonomi",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000066",
+      "clue": "Anlama ve kavrama yetisi",
+      "extendedClue": "Duyulan ya da görülen şeyi zihinde anlamlandırma",
+      "answer": "İDRAK",
+      "difficulty": 5,
+      "category": "Felsefe",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000067",
+      "clue": "Bir bölgenin uzun süreli hava özellikleri",
+      "extendedClue": "Sıcaklık ve yağış düzeninin yıllara yayılan ortalaması",
+      "answer": "İKLİM",
+      "difficulty": 3,
+      "category": "Coğrafya",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000068",
+      "clue": "Söylenenin tersini ima eden anlatım",
+      "extendedClue": "Alaylı veya dolaylı anlam taşıyan ifade biçimi",
+      "answer": "İRONİ",
+      "difficulty": 5,
+      "category": "Edebiyat",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000069",
+      "clue": "Dış yüzeyi koruyan sert tabaka",
+      "extendedClue": "Ağaçta, meyvede veya canlıda koruyucu dış katman",
+      "answer": "KABUK",
+      "difficulty": 3,
+      "category": "Biyoloji",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000006a",
+      "clue": "Önceden belirlenmiş sayılan yaşam çizgisi",
+      "extendedClue": "İnsanın kontrolü dışındaki yazgı düşüncesi",
+      "answer": "KADER",
+      "difficulty": 4,
+      "category": "Felsefe",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000006b",
+      "clue": "Bir şeye biçim veren model",
+      "extendedClue": "Döküm veya üretimde şekil kazandıran araç",
+      "answer": "KALIP",
+      "difficulty": 3,
+      "category": "Tasarım",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000006c",
+      "clue": "Şiddetli rüzgar fırtınası",
+      "extendedClue": "Tropikal bölgelerde yıkıcı olabilen hava olayı",
+      "answer": "KASIR",
+      "difficulty": 4,
+      "category": "Doğa",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000006d",
+      "clue": "Bir maddenin akışkanlık derecesi",
+      "extendedClue": "Sıvı ya da hamurun yoğunluk ve tutarlılık hali",
+      "answer": "KIVAM",
+      "difficulty": 3,
+      "category": "Kimya",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000006e",
+      "clue": "Dil anlamına gelen eski kelime",
+      "extendedClue": "Konuşma ve yazıyla iletişim sistemi",
+      "answer": "LİSAN",
+      "difficulty": 3,
+      "category": "Dil",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000006f",
+      "clue": "İbadet için yapılan kutsal yapı",
+      "extendedClue": "Tapınak veya ibadethane anlamında kullanılır",
+      "answer": "MABET",
+      "difficulty": 4,
+      "category": "Mimari",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000070",
+      "clue": "Doğru düşünme kurallarını inceleyen alan",
+      "extendedClue": "Önermeler ve çıkarımlar arasındaki geçerliliği araştırır",
+      "answer": "MANTIK",
+      "difficulty": 4,
+      "category": "Felsefe",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000071",
+      "clue": "Güç ve takat anlamındaki kelime",
+      "extendedClue": "Yorgunluk sonrası kalmayan enerji için kullanılır",
+      "answer": "MECAL",
+      "difficulty": 4,
+      "category": "Duygu",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000072",
+      "clue": "Yayın veya akış kanalı",
+      "extendedClue": "Haberin, suyun ya da içeriğin ilerlediği yol",
+      "answer": "MECRA",
+      "difficulty": 4,
+      "category": "Medya",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000073",
+      "clue": "Ölen kişiden kalan hak ve mallar",
+      "extendedClue": "Kuşaktan kuşağa aktarılan maddi ya da kültürel değer",
+      "answer": "MİRAS",
+      "difficulty": 3,
+      "category": "Hukuk",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000074",
+      "clue": "Bir sonucu doğuran etken",
+      "extendedClue": "Olayın ortaya çıkmasına yol açan sebep",
+      "answer": "NEDEN",
+      "difficulty": 2,
+      "category": "Felsefe",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000075",
+      "clue": "Düz yazı türü",
+      "extendedClue": "Şiir ölçüsü taşımayan anlatım biçimi",
+      "answer": "NESİR",
+      "difficulty": 4,
+      "category": "Edebiyat",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000076",
+      "clue": "Sayısal değil özellik belirten",
+      "extendedClue": "Nicelin karşıtı olarak vasıf odaklı kavram",
+      "answer": "NİTEL",
+      "difficulty": 5,
+      "category": "Bilim",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000077",
+      "clue": "Haritadaki küçültme oranı",
+      "extendedClue": "Gerçek uzunlukla çizimdeki uzunluk arasındaki ilişki",
+      "answer": "ÖLÇEK",
+      "difficulty": 4,
+      "category": "Harita",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000078",
+      "clue": "Bir konuda sunulan teklif",
+      "extendedClue": "Yapılması istenen veya tavsiye edilen düşünce",
+      "answer": "ÖNERİ",
+      "difficulty": 2,
+      "category": "Dil",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000079",
+      "clue": "Kesirde altta yer alan sayı",
+      "extendedClue": "Bütünün kaç eş parçaya ayrıldığını gösterir",
+      "answer": "PAYDA",
+      "difficulty": 3,
+      "category": "Matematik",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000007a",
+      "clue": "Seslerin zaman içindeki düzeni",
+      "extendedClue": "Vuruş ve aralıkların oluşturduğu akış",
+      "answer": "RİTİM",
+      "difficulty": 3,
+      "category": "Müzik",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000007b",
+      "clue": "İnsanı davranışa iten neden",
+      "extendedClue": "Güdü veya iç dürtü anlamında kullanılır",
+      "answer": "SAİKA",
+      "difficulty": 5,
+      "category": "Psikoloji",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000007c",
+      "clue": "Parçaları birleştirerek bütün kurma",
+      "extendedClue": "Analizin karşıtı olarak yeni yapı oluşturma işlemi",
+      "answer": "SENTEZ",
+      "difficulty": 4,
+      "category": "Bilim",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000007d",
+      "clue": "Kayıtların tutulduğu resmi defter",
+      "extendedClue": "Kişi veya işlem geçmişini gösteren belge düzeni",
+      "answer": "SİCİL",
+      "difficulty": 4,
+      "category": "Hukuk",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000007e",
+      "clue": "Kadın şair anlamındaki kelime",
+      "extendedClue": "Şiir yazan kadın sanatçı için kullanılır",
+      "answer": "ŞAİRE",
+      "difficulty": 3,
+      "category": "Edebiyat",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000007f",
+      "clue": "Değerlendirme ve uygun görme yetkisi",
+      "extendedClue": "Bir konuda hüküm verirken kanaat kullanma durumu",
+      "answer": "TAKDİR",
+      "difficulty": 4,
+      "category": "Hukuk",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000080",
+      "clue": "Bir şeyi sözle veya çizgiyle betimleme",
+      "extendedClue": "Görülen ya da hayal edilen varlığı anlatma işi",
+      "answer": "TASVİR",
+      "difficulty": 4,
+      "category": "Sanat",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000081",
+      "clue": "Karşıtlık sanatı",
+      "extendedClue": "Birbirine zıt kavramları bir arada kullanma yöntemi",
+      "answer": "TEZAT",
+      "difficulty": 5,
+      "category": "Edebiyat",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000082",
+      "clue": "Sesin incelik ve kalınlık özelliği",
+      "extendedClue": "Frekansla ilişkili işitsel nitelik",
+      "answer": "TİTRE",
+      "difficulty": 5,
+      "category": "Fizik",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000083",
+      "clue": "Bir bütünün temel öğesi",
+      "extendedClue": "Sistemi oluşturan parçalardan her biri",
+      "answer": "UNSUR",
+      "difficulty": 3,
+      "category": "Dil",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000084",
+      "clue": "Belirli amaç için ayrılmış mal topluluğu",
+      "extendedClue": "Eğitim veya hayır işleri için kurulabilen kurum",
+      "answer": "VAKIF",
+      "difficulty": 4,
+      "category": "Hukuk",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000085",
+      "clue": "Mahkeme kararı veya düşünsel hüküm",
+      "extendedClue": "Bir konuda varılan sonuç ya da değerlendirme",
+      "answer": "YARGI",
+      "difficulty": 3,
+      "category": "Hukuk",
+      "letterCount": 5
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000086",
+      "clue": "Anlatımın gereğinden yoğun ve ağır oluşu",
+      "extendedClue": "Sade olmayan, karmaşık ve yoğun ifade niteliği",
+      "answer": "AĞDALIK",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000087",
+      "clue": "Bir problemi çözmek için izlenen adımlar",
+      "extendedClue": "Yazılımda işlemleri sırayla tanımlayan mantık yapısı",
+      "answer": "ALGORİ",
+      "difficulty": 5,
+      "category": "Teknoloji",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000088",
+      "clue": "Bütünü parçalarına ayırarak inceleme",
+      "extendedClue": "Bir olayı nedenleri ve parçalarıyla çözümleme yöntemi",
+      "answer": "ANALİZ",
+      "difficulty": 3,
+      "category": "Bilim",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000089",
+      "clue": "Devletin temel işleyiş kurallarını belirleyen metin",
+      "extendedClue": "Hakları ve kurumları düzenleyen en üst hukuk belgesi",
+      "answer": "ANAYASA",
+      "difficulty": 4,
+      "category": "Hukuk",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000008a",
+      "clue": "Yüzeyin dış etkenlerle yıpranması",
+      "extendedClue": "Rüzgar, su veya buzun kayaçları parçalaması",
+      "answer": "AŞINMA",
+      "difficulty": 4,
+      "category": "Coğrafya",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000008b",
+      "clue": "Bir sözün anlam kazandığı çevre",
+      "extendedClue": "Cümle veya durum içinde anlamı belirleyen ortam",
+      "answer": "BAĞLAM",
+      "difficulty": 4,
+      "category": "Dil",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000008c",
+      "clue": "Bir maddeyi oluşturan öğelerin bütünü",
+      "extendedClue": "Karışım ya da bileşikteki oran ve yapı",
+      "answer": "BİLEŞİM",
+      "difficulty": 4,
+      "category": "Kimya",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000008d",
+      "clue": "Gerçeküstü öğeler taşıyan halk anlatısı",
+      "extendedClue": "Toplum belleğinde olağanüstü biçimde aktarılan hikaye",
+      "answer": "EFSANE",
+      "difficulty": 3,
+      "category": "Edebiyat",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000008e",
+      "clue": "Gelişimin erken evresindeki canlı taslağı",
+      "extendedClue": "Döllenmeden sonra organlaşma öncesi dönem",
+      "answer": "EMBRİYO",
+      "difficulty": 4,
+      "category": "Biyoloji",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000008f",
+      "clue": "İş yapabilme kapasitesi",
+      "extendedClue": "Hareket, ısı veya elektrik biçiminde ortaya çıkabilir",
+      "answer": "ENERJİ",
+      "difficulty": 2,
+      "category": "Fizik",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000090",
+      "clue": "Güzeli ve sanat değerini inceleyen alan",
+      "extendedClue": "Bir eserin uyum ve güzellik ölçüsünü ele alan kavram",
+      "answer": "ESTETİK",
+      "difficulty": 4,
+      "category": "Sanat",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000091",
+      "clue": "Bir eserin parça parça yayımlanan bölümü",
+      "extendedClue": "Dergi ya da kitap ekleri halinde basılan küçük bölüm",
+      "answer": "FASİKÜL",
+      "difficulty": 5,
+      "category": "Yayıncılık",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000092",
+      "clue": "Kuşaktan kuşağa aktarılan alışkanlık",
+      "extendedClue": "Toplumun uzun sürede benimsediği davranış biçimi",
+      "answer": "GELENEK",
+      "difficulty": 2,
+      "category": "Kültür",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000093",
+      "clue": "Bir yıldız çevresinde dolanan gök cismi",
+      "extendedClue": "Kendi ışığını üretmeyen büyük gök cismi",
+      "answer": "GEZEGEN",
+      "difficulty": 2,
+      "category": "Astronomi",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000094",
+      "clue": "Zaman ve uzayın gözlemciye bağlılığını anlatan kuram",
+      "extendedClue": "Einstein ile özdeşleşen modern fizik yaklaşımı",
+      "answer": "GÖRELİK",
+      "difficulty": 5,
+      "category": "Fizik",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000095",
+      "clue": "Bilgileri saklama ve hatırlama yetisi",
+      "extendedClue": "Geçmiş deneyimleri zihinde tutma sistemi",
+      "answer": "HAFIZA",
+      "difficulty": 3,
+      "category": "Psikoloji",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000096",
+      "clue": "Yeryüzünü ölçekli gösteren çizim",
+      "extendedClue": "Yer şekillerini ve konumları sembollerle gösterir",
+      "answer": "HARİTA",
+      "difficulty": 2,
+      "category": "Coğrafya",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000097",
+      "clue": "Basamaklı yetki veya önem düzeni",
+      "extendedClue": "Üst ve alt ilişkilerine dayalı sıralama sistemi",
+      "answer": "HİYERARŞİ",
+      "difficulty": 5,
+      "category": "Sosyoloji",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000098",
+      "clue": "Varlığın özüne ait olmayan özellik",
+      "extendedClue": "Aristoteles mantığında rastlantısal nitelik",
+      "answer": "İLİNEK",
+      "difficulty": 5,
+      "category": "Felsefe",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000099",
+      "clue": "Ham maddeyi ürüne dönüştürme işi",
+      "extendedClue": "Sanayide üretim sürecinin pratik aşaması",
+      "answer": "İMALAT",
+      "difficulty": 3,
+      "category": "Ekonomi",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000009a",
+      "clue": "Benzetmenin yalnız bir öğesiyle yapılan söz sanatı",
+      "extendedClue": "Mecaz yoluyla başka bir varlığı kastetme yöntemi",
+      "answer": "İSTİARE",
+      "difficulty": 5,
+      "category": "Edebiyat",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000009b",
+      "clue": "Akrabalık temelli geleneksel topluluk",
+      "extendedClue": "Ortak soy ve gelenek çevresinde örgütlenen grup",
+      "answer": "KABİLE",
+      "difficulty": 4,
+      "category": "Sosyoloji",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000009c",
+      "clue": "Bilinen olgudan bilinmeyeni çıkarma varsayımı",
+      "extendedClue": "Kesin kanıt yerine kabul edilen hukuki belirti",
+      "answer": "KARİNE",
+      "difficulty": 5,
+      "category": "Hukuk",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000009d",
+      "clue": "Üst üste oluşmuş tabaka",
+      "extendedClue": "Yeryüzü, atmosfer veya yazılımda seviye anlamına gelir",
+      "answer": "KATMAN",
+      "difficulty": 3,
+      "category": "Jeoloji",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000009e",
+      "clue": "Nesnelerin ortak özelliklerini zihinde temsil eden düşünce",
+      "extendedClue": "Soyutlama sonucu oluşan anlam birimi",
+      "answer": "KAVRAM",
+      "difficulty": 4,
+      "category": "Felsefe",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000009f",
+      "clue": "Bilginin veya malzemenin çıktığı yer",
+      "extendedClue": "Araştırmada yararlanılan belge ya da kişi",
+      "answer": "KAYNAK",
+      "difficulty": 3,
+      "category": "Bilgi",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000a0",
+      "clue": "Mıknatıs etkisiyle ilgili olan",
+      "extendedClue": "Elektrik yüklerinin hareketiyle oluşan alan niteliği",
+      "answer": "MANYETİK",
+      "difficulty": 5,
+      "category": "Fizik",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000a1",
+      "clue": "Satır ve sütunlardan oluşan sayı tablosu",
+      "extendedClue": "Lineer cebirde dönüşümleri gösteren düzenli yapı",
+      "answer": "MATRİS",
+      "difficulty": 4,
+      "category": "Matematik",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000a2",
+      "clue": "Işığı kırarak görüntü oluşturan cam parça",
+      "extendedClue": "Gözlük, kamera ve mikroskopta bulunan optik eleman",
+      "answer": "MERCEK",
+      "difficulty": 3,
+      "category": "Fizik",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000a3",
+      "clue": "Bir şeyi başka bir şeyle anlatma",
+      "extendedClue": "Benzetmeye dayanan güçlü imge aktarımı",
+      "answer": "METAFOR",
+      "difficulty": 5,
+      "category": "Edebiyat",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000a4",
+      "clue": "Hastalık yapabilen küçük canlı",
+      "extendedClue": "Bakteri veya virüs gibi gözle görülmeyen etken",
+      "answer": "MİKROP",
+      "difficulty": 2,
+      "category": "Biyoloji",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000a5",
+      "clue": "Kelime yapısını inceleyen alan",
+      "extendedClue": "Kök, ek ve biçim değişimlerini araştıran dil bilimi dalı",
+      "answer": "MORFOLOJİ",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000a6",
+      "clue": "Eksik veya tamamlanmamış olan",
+      "extendedClue": "Bir şeyin olması gereken kısmının bulunmaması",
+      "answer": "NOKSAN",
+      "difficulty": 3,
+      "category": "Dil",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000a7",
+      "clue": "Atom çekirdeğinde yüksüz parçacık",
+      "extendedClue": "Protonla birlikte çekirdeğin kütlesini oluşturan tanecik",
+      "answer": "NÖTRON",
+      "difficulty": 4,
+      "category": "Fizik",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000a8",
+      "clue": "Kanıta dayanmadan önce hissedilen bilgi",
+      "extendedClue": "Bir olay gerçekleşmeden duyulan içsel tahmin",
+      "answer": "ÖNSEZİ",
+      "difficulty": 4,
+      "category": "Psikoloji",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000a9",
+      "clue": "Çelişkili görünse de düşündüren önerme",
+      "extendedClue": "Mantıksal olarak garip sonuç doğuran ifade",
+      "answer": "PARADOKS",
+      "difficulty": 5,
+      "category": "Felsefe",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000aa",
+      "clue": "Bir düşünce çevresinde kurulan metin bölümü",
+      "extendedClue": "Yazıda satır başıyla ayrılan anlam birimi",
+      "answer": "PARAGRAF",
+      "difficulty": 2,
+      "category": "Dil",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000ab",
+      "clue": "Atom çekirdeğinde pozitif yüklü parçacık",
+      "extendedClue": "Element kimliğini belirleyen temel tanecik",
+      "answer": "PROTON",
+      "difficulty": 4,
+      "category": "Fizik",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000ac",
+      "clue": "İki tam sayının oranı olarak yazılabilen",
+      "extendedClue": "Kesir biçiminde ifade edilebilen sayı türü",
+      "answer": "RASYONEL",
+      "difficulty": 4,
+      "category": "Matematik",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000ad",
+      "clue": "Etkili ve ikna edici konuşma sanatı",
+      "extendedClue": "Sözün düzenlenmesiyle karşı tarafı etkileme yöntemi",
+      "answer": "RETORİK",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000ae",
+      "clue": "Aktarılan haber veya söylenti",
+      "extendedClue": "Geçmişten nakledilen ama kesinliği tartışılabilen bilgi",
+      "answer": "RİVAYET",
+      "difficulty": 4,
+      "category": "Tarih",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000af",
+      "clue": "Günlük akla uygun yargılama yetisi",
+      "extendedClue": "Aşırıya kaçmadan makul karar verebilme hali",
+      "answer": "SAĞDUYU",
+      "difficulty": 3,
+      "category": "Felsefe",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000b0",
+      "clue": "Bir kavramı temsil eden işaret",
+      "extendedClue": "Bayrak, renk veya şekil yoluyla anlam taşıyan öğe",
+      "answer": "SEMBOL",
+      "difficulty": 3,
+      "category": "Sanat",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000b1",
+      "clue": "Birbiriyle ilişkili parçalardan oluşan düzen",
+      "extendedClue": "Belirli amacı gerçekleştiren yapı veya organizasyon",
+      "answer": "SİSTEM",
+      "difficulty": 3,
+      "category": "Teknoloji",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000b2",
+      "clue": "Şiire özgü incelik ve duygu yoğunluğu",
+      "extendedClue": "Düz yazıda bile şiirsel etki oluşturan nitelik",
+      "answer": "ŞİİRİYET",
+      "difficulty": 5,
+      "category": "Edebiyat",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000b3",
+      "clue": "Sahnede canlandırılan dramatik sanat",
+      "extendedClue": "Oyuncu ve izleyicinin aynı anda buluştuğu gösteri türü",
+      "answer": "TİYATRO",
+      "difficulty": 2,
+      "category": "Sanat",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000b4",
+      "clue": "Tarafların ortak noktada buluşması",
+      "extendedClue": "Çatışmayı azaltan karşılıklı kabul durumu",
+      "answer": "UZLAŞI",
+      "difficulty": 3,
+      "category": "Sosyoloji",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000b5",
+      "clue": "Verilerin ortalamadan ne kadar saptığını gösteren ölçü",
+      "extendedClue": "Dağılımın yaygınlığını hesaplayan istatistiksel değer",
+      "answer": "VARYANS",
+      "difficulty": 5,
+      "category": "İstatistik",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000b6",
+      "clue": "Cümlede yargıyı bildiren temel öğe",
+      "extendedClue": "İş, oluş veya durumu anlatan cümle merkezi",
+      "answer": "YÜKLEM",
+      "difficulty": 3,
+      "category": "Dil Bilgisi",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000b7",
+      "clue": "Soyut düşünceyi somut hikayeyle anlatma",
+      "extendedClue": "Kişi ve olayların başka kavramları temsil ettiği anlatım",
+      "answer": "ALEGORİ",
+      "difficulty": 5,
+      "category": "Edebiyat",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000b8",
+      "clue": "Akarsuların taşıyıp biriktirdiği verimli tortu",
+      "extendedClue": "Delta ve ova oluşumunda etkili ince malzeme",
+      "answer": "ALÜVYON",
+      "difficulty": 4,
+      "category": "Coğrafya",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000b9",
+      "clue": "Benzerlikten yola çıkarak akıl yürütme",
+      "extendedClue": "İki farklı şey arasında ilişki kurarak açıklama yöntemi",
+      "answer": "ANALOJİ",
+      "difficulty": 5,
+      "category": "Felsefe",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000ba",
+      "clue": "Canlı vücudunun yapısını inceleyen bilim",
+      "extendedClue": "Organların konum ve biçimlerini araştırır",
+      "answer": "ANATOMİ",
+      "difficulty": 3,
+      "category": "Tıp",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000bb",
+      "clue": "Bağışıklık sisteminin ürettiği savunma proteini",
+      "extendedClue": "Vücuda giren yabancı maddeyi tanımaya yardım eder",
+      "answer": "ANTİKOR",
+      "difficulty": 4,
+      "category": "Biyoloji",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000bc",
+      "clue": "Geçmiş toplumları kalıntılarla inceleyen alan",
+      "extendedClue": "Kazılarla eski yaşamı araştıran bilim dalı",
+      "answer": "ARKEOLOJİ",
+      "difficulty": 4,
+      "category": "Bilim",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000bd",
+      "clue": "Ağırlık ölçmeye yarayan düzenek",
+      "extendedClue": "Kütle ölçümü için kullanılan mekanik veya dijital araç",
+      "answer": "BASKÜL",
+      "difficulty": 3,
+      "category": "Teknik",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000be",
+      "clue": "Bilgi işleme ve iletişim teknolojileri alanı",
+      "extendedClue": "Yazılım, donanım ve veri yönetimini kapsar",
+      "answer": "BİLİŞİM",
+      "difficulty": 3,
+      "category": "Teknoloji",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000bf",
+      "clue": "Bitkilerden elde edilen veya bitkiye ilişkin",
+      "extendedClue": "Hayvansal olmayan doğal kaynaklı ürünleri anlatır",
+      "answer": "BİTKİSEL",
+      "difficulty": 2,
+      "category": "Biyoloji",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000c0",
+      "clue": "Parçaları birlikte ele alan yaklaşım",
+      "extendedClue": "Bir olguyu tek tek değil tamamıyla değerlendiren bakış",
+      "answer": "BÜTÜNSEL",
+      "difficulty": 4,
+      "category": "Felsefe",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000c1",
+      "clue": "Canlılarda üreme özelliklerine dayalı ayrım",
+      "extendedClue": "Biyolojik ve toplumsal yönleri olan sınıflama kavramı",
+      "answer": "CİNSİYET",
+      "difficulty": 3,
+      "category": "Biyoloji",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000c2",
+      "clue": "Verilerden sonuç elde etme işlemi",
+      "extendedClue": "Önermelerden yeni bir yargıya varma süreci",
+      "answer": "ÇIKARSAMA",
+      "difficulty": 5,
+      "category": "Mantık",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000c3",
+      "clue": "Öğretici amaç taşıyan anlatım",
+      "extendedClue": "Bilgi verme ve ders çıkarma yönü ağır basan metin türü",
+      "answer": "DİDAKTİK",
+      "difficulty": 4,
+      "category": "Edebiyat",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000c4",
+      "clue": "Hareket ve kuvvet ilişkisini inceleyen alan",
+      "extendedClue": "Mekaniğin cisimlerin hareket nedenleriyle ilgilenen bölümü",
+      "answer": "DİNAMİK",
+      "difficulty": 4,
+      "category": "Fizik",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000c5",
+      "clue": "Bir dilin yerel konuşma biçimi",
+      "extendedClue": "Lehçe ve ağız özellikleri taşıyan bölgesel kullanım",
+      "answer": "DİYALEKT",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000c6",
+      "clue": "Bilimsel görüşler bütünü",
+      "extendedClue": "Öğreti anlamında kullanılan kuramsal yaklaşım",
+      "answer": "DOKTRİN",
+      "difficulty": 5,
+      "category": "Hukuk",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000c7",
+      "clue": "Bilgi taşıyan yazılı veya dijital belge",
+      "extendedClue": "Resmi ya da teknik amaçla saklanan kayıt",
+      "answer": "DÖKÜMAN",
+      "difficulty": 2,
+      "category": "Bilgi",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000c8",
+      "clue": "Canlıların çevreyle ilişkisini inceleyen bilim",
+      "extendedClue": "Ekosistemlerin işleyişini araştıran alan",
+      "answer": "EKOLOJİ",
+      "difficulty": 3,
+      "category": "Biyoloji",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000c9",
+      "clue": "Bir miktardan azaltılan bölüm",
+      "extendedClue": "Çıkarma işleminde düşülen değer ya da kayıp",
+      "answer": "EKSİLTİ",
+      "difficulty": 4,
+      "category": "Matematik",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000ca",
+      "clue": "Metnin başındaki kısa alıntı",
+      "extendedClue": "Eserin havasını belirleyen giriş sözü",
+      "answer": "EPİGRAF",
+      "difficulty": 5,
+      "category": "Edebiyat",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000cb",
+      "clue": "Varlık, bilgi ve değer üzerine düşünme alanı",
+      "extendedClue": "Temel sorulara akıl yoluyla cevap arayan disiplin",
+      "answer": "FELSEFE",
+      "difficulty": 3,
+      "category": "Felsefe",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000cc",
+      "clue": "Canlı organizmaların işleyişini inceleyen bilim",
+      "extendedClue": "Organların nasıl çalıştığını araştıran alan",
+      "answer": "FİZYOLOJİ",
+      "difficulty": 4,
+      "category": "Tıp",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000cd",
+      "clue": "Anlam taşıyan işaret birimi",
+      "extendedClue": "Gösteren ve gösterilen ilişkisiyle anlam kuran unsur",
+      "answer": "GÖSTERGE",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000ce",
+      "clue": "Periyodik tablodaki en hafif element",
+      "extendedClue": "Suyun yapısında bulunan yanıcı gaz elementi",
+      "answer": "HİDROJEN",
+      "difficulty": 3,
+      "category": "Kimya",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000cf",
+      "clue": "Test edilmek üzere öne sürülen varsayım",
+      "extendedClue": "Deney veya gözlemle sınanacak açıklama önerisi",
+      "answer": "HİPOTEZ",
+      "difficulty": 4,
+      "category": "Bilim",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000d0",
+      "clue": "Dokuları mikroskobik düzeyde inceleyen bilim",
+      "extendedClue": "Hücre topluluklarının yapısını araştırır",
+      "answer": "HİSTOLOJİ",
+      "difficulty": 5,
+      "category": "Tıp",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000d1",
+      "clue": "Uzun süreli hava koşullarıyla ilgili olan",
+      "extendedClue": "Bir bölgenin sıcaklık ve yağış düzenine ilişkin",
+      "answer": "İKLİMSEL",
+      "difficulty": 3,
+      "category": "Coğrafya",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000d2",
+      "clue": "Söylenenin tersini ima eden nitelikte",
+      "extendedClue": "Alaylı veya beklenmedik karşıt anlam taşıyan ifade",
+      "answer": "İRONİK",
+      "difficulty": 4,
+      "category": "Edebiyat",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000d3",
+      "clue": "Nesilden nesile aktarılan özellik",
+      "extendedClue": "Genler aracılığıyla geçen biyolojik nitelik",
+      "answer": "KALITSAL",
+      "difficulty": 3,
+      "category": "Biyoloji",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000d4",
+      "clue": "Karbonik asit tuzu olan bileşik grubu",
+      "extendedClue": "Mutfakta kabartma amacıyla da bilinen madde türü",
+      "answer": "KARBONAT",
+      "difficulty": 4,
+      "category": "Kimya",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000d5",
+      "clue": "Tepkime hızını değiştirme süreci",
+      "extendedClue": "Kendisi tükenmeden reaksiyonu etkileyen etki",
+      "answer": "KATALİZ",
+      "difficulty": 5,
+      "category": "Kimya",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000d6",
+      "clue": "Yol gösteren kişi veya belge",
+      "extendedClue": "Bir işlemi adım adım anlatan rehber",
+      "answer": "KILAVUZ",
+      "difficulty": 2,
+      "category": "Gündelik",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000d7",
+      "clue": "Toplumun yaşam biçimiyle ilgili olan",
+      "extendedClue": "Gelenek, sanat ve değerler alanına ait nitelik",
+      "answer": "KÜLTÜREL",
+      "difficulty": 3,
+      "category": "Kültür",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000d8",
+      "clue": "Tanrılar ve kahramanlara dair anlatılar bütünü",
+      "extendedClue": "Bir toplumun kutsal hikayelerini inceleyen alan",
+      "answer": "MİTOLOJİ",
+      "difficulty": 4,
+      "category": "Edebiyat",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000d9",
+      "clue": "Gelişimde biçimlenmeyi yönlendiren madde",
+      "extendedClue": "Embriyonik dokuların konum bilgisini etkileyen sinyal",
+      "answer": "MORFOJEN",
+      "difficulty": 5,
+      "category": "Biyoloji",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000da",
+      "clue": "Bir varlığı belirleyen özellik",
+      "extendedClue": "Nicelikten farklı olarak vasıf bildiren yön",
+      "answer": "NİTELİK",
+      "difficulty": 4,
+      "category": "Felsefe",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000db",
+      "clue": "Bir olayın gerçekleşme ihtimalini ölçen alan",
+      "extendedClue": "Rastlantısal durumları sayısal olarak inceleyen dal",
+      "answer": "OLASILIK",
+      "difficulty": 3,
+      "category": "Matematik",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000dc",
+      "clue": "Doğru ya da yanlış olabilen yargı cümlesi",
+      "extendedClue": "Mantıkta doğruluk değeri taşıyan ifade",
+      "answer": "ÖNERME",
+      "difficulty": 4,
+      "category": "Mantık",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000dd",
+      "clue": "Bir dönemin kabul görmüş düşünce çerçevesi",
+      "extendedClue": "Bilimsel yaklaşımı belirleyen model ve varsayımlar bütünü",
+      "answer": "PARADİGMA",
+      "difficulty": 5,
+      "category": "Bilim",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000de",
+      "clue": "Hastalıkların neden ve yapılarını inceleyen alan",
+      "extendedClue": "Doku ve organlardaki bozuklukları araştırır",
+      "answer": "PATOLOJİ",
+      "difficulty": 4,
+      "category": "Tıp",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000df",
+      "clue": "Düzenli tekrar aralığı",
+      "extendedClue": "Fonksiyonlarda aynı değerin tekrarlandığı uzunluk",
+      "answer": "PERİYOT",
+      "difficulty": 4,
+      "category": "Matematik",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000e0",
+      "clue": "Tekrarlayan birimlerden oluşan büyük molekül",
+      "extendedClue": "Plastiklerin temelini oluşturan uzun zincir yapısı",
+      "answer": "POLİMER",
+      "difficulty": 4,
+      "category": "Kimya",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000e1",
+      "clue": "Belirli kurallarla yapılan tören davranışı",
+      "extendedClue": "Toplumsal veya dini anlam taşıyan tekrar eden uygulama",
+      "answer": "RİTÜEL",
+      "difficulty": 4,
+      "category": "Kültür",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000e2",
+      "clue": "Sabit noktadan asılı salınan cisim",
+      "extendedClue": "Saatlerde veya deneylerde düzenli hareketiyle bilinir",
+      "answer": "SARKAÇ",
+      "difficulty": 4,
+      "category": "Fizik",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000e3",
+      "clue": "Anlam bilimiyle ilgili olan",
+      "extendedClue": "Kelimelerin ve cümlelerin anlam ilişkilerini inceler",
+      "answer": "SEMANTİK",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000e4",
+      "clue": "Aynı zamanda uyumlu çalışan",
+      "extendedClue": "İki sistemin zamanlama bakımından eşleşmiş hali",
+      "answer": "SENKRON",
+      "difficulty": 4,
+      "category": "Teknoloji",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000e5",
+      "clue": "Bir varlığın gölge gibi dış çizgisi",
+      "extendedClue": "Ayrıntısız karanlık biçim olarak görülen kontur",
+      "answer": "SİLÜET",
+      "difficulty": 4,
+      "category": "Sanat",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000e6",
+      "clue": "Kelimelerin cümlede sıralanma düzeni",
+      "extendedClue": "Dil bilgisinde cümle yapısını inceleyen alan",
+      "answer": "SÖZDİZİM",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000e7",
+      "clue": "Bir ürün veya fikrin planlanmış biçimi",
+      "extendedClue": "Estetik ve işlevin birlikte düşünüldüğü yaratım süreci",
+      "answer": "TASARIM",
+      "difficulty": 3,
+      "category": "Sanat",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000e8",
+      "clue": "Yer kabuğu hareketleriyle ilgili alan",
+      "extendedClue": "Levha hareketlerinin dağ ve deprem oluşumuna etkisi",
+      "answer": "TEKTONİK",
+      "difficulty": 5,
+      "category": "Jeoloji",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000e9",
+      "clue": "Isı ve enerji dönüşümleriyle ilgili kısa terim",
+      "extendedClue": "Termodinamik kavramını çağrıştıran teknik ifade",
+      "answer": "TERMODİN",
+      "difficulty": 5,
+      "category": "Fizik",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000ea",
+      "clue": "Halk ezgisi havası taşıyan",
+      "extendedClue": "Türkü biçimine ya da duygusuna yakın nitelik",
+      "answer": "TÜRKÜSEL",
+      "difficulty": 4,
+      "category": "Müzik",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000eb",
+      "clue": "Mekandaki konum ve boyutlarla ilgili",
+      "extendedClue": "Nesnelerin yer ve şekil ilişkisini anlatan kavram",
+      "answer": "UZAMSAL",
+      "difficulty": 4,
+      "category": "Geometri",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000ec",
+      "clue": "Akışkanın akmaya karşı direnciyle ilgili",
+      "extendedClue": "Bal gibi yoğun sıvıların özelliğini anlatır",
+      "answer": "VİSKOZ",
+      "difficulty": 5,
+      "category": "Fizik",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000ed",
+      "clue": "Olayları açıklayıp değerlendiren kişi",
+      "extendedClue": "Haber veya spor programında görüş bildiren uzman",
+      "answer": "YORUMCU",
+      "difficulty": 3,
+      "category": "Medya",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000ee",
+      "clue": "Zamanla ilgili olan",
+      "extendedClue": "Bir olayın süre ve sıralama yönünü anlatır",
+      "answer": "ZAMANSAL",
+      "difficulty": 3,
+      "category": "Felsefe",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000ef",
+      "clue": "Kanıtsız doğru kabul edilen temel önerme",
+      "extendedClue": "Bir teorinin üzerine kurulduğu başlangıç ilkesi",
+      "answer": "AKSİYOM",
+      "difficulty": 5,
+      "category": "Matematik",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000f0",
+      "clue": "Bir olayı aktarma biçimi",
+      "extendedClue": "Yazarın olay ve düşünceleri sunma yolu",
+      "answer": "ANLATIŞ",
+      "difficulty": 3,
+      "category": "Edebiyat",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000f1",
+      "clue": "Bileşiğin daha basit parçalara bölünmesi",
+      "extendedClue": "Isı veya tepkimeyle maddenin unsurlarına ayrılması",
+      "answer": "AYRIŞMA",
+      "difficulty": 4,
+      "category": "Kimya",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000f2",
+      "clue": "İki küme elemanı arasındaki ilişki",
+      "extendedClue": "Fonksiyon kavramının daha genel biçimi",
+      "answer": "BAĞINTI",
+      "difficulty": 4,
+      "category": "Matematik",
+      "letterCount": 7
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000f3",
+      "clue": "Seslerin birbirine yaklaşması olayı",
+      "extendedClue": "Dil bilgisinde komşu seslerin etkilenmesi",
+      "answer": "BENZEŞİM",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000f4",
+      "clue": "Deney ve kanıta dayalı olan",
+      "extendedClue": "Nesnel yöntemlerle doğrulanmaya çalışan nitelik",
+      "answer": "BİLİMSEL",
+      "difficulty": 3,
+      "category": "Bilim",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000f5",
+      "clue": "Kalbin hızlı veya düzensiz atması hissi",
+      "extendedClue": "Heyecan ya da rahatsızlıkla göğüste duyulan atım",
+      "answer": "ÇARPINTI",
+      "difficulty": 3,
+      "category": "Tıp",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000f6",
+      "clue": "Tekrarlanan işlem veya döngü",
+      "extendedClue": "Bilgisayar biliminde bir sürecin başa dönmesi",
+      "answer": "ÇEVRİM",
+      "difficulty": 4,
+      "category": "Teknoloji",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000f7",
+      "clue": "Elektrik akımına karşı koyma ölçüsü",
+      "extendedClue": "Ohm yasasında akımı sınırlayan büyüklük",
+      "answer": "DİRENÇ",
+      "difficulty": 3,
+      "category": "Fizik",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000f8",
+      "clue": "Şekil, ölçü ve uzay ilişkilerini inceleyen dal",
+      "extendedClue": "Nokta, doğru, açı ve cisimlerle çalışan alan",
+      "answer": "GEOMETRİ",
+      "difficulty": 2,
+      "category": "Matematik",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000f9",
+      "clue": "Bir olayı izleyip veri toplayan kişi",
+      "extendedClue": "Deney veya saha çalışmasında kayıt yapan araştırmacı",
+      "answer": "GÖZLEMCİ",
+      "difficulty": 3,
+      "category": "Bilim",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000fa",
+      "clue": "Güzel yazı sanatıyla uğraşan kişi",
+      "extendedClue": "Harfleri estetik biçimde yazan sanatçı",
+      "answer": "KALİGRAF",
+      "difficulty": 4,
+      "category": "Sanat",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000fb",
+      "clue": "Zıtlık barındıran anlatım özelliği",
+      "extendedClue": "Anlamı güçlendirmek için karşıt kavramların kullanılması",
+      "answer": "KARŞITLI",
+      "difficulty": 4,
+      "category": "Edebiyat",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000fc",
+      "clue": "Bir şeyi derinlemesine anlama yetisi",
+      "extendedClue": "Sadece duymak değil anlam bağlantısını kurmak",
+      "answer": "KAVRAYIŞ",
+      "difficulty": 4,
+      "category": "Felsefe",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000fd",
+      "clue": "Kolayca kırılabilen özellikte olan",
+      "extendedClue": "Darbe veya baskıya karşı dayanıksız nitelik",
+      "answer": "KIRILGAN",
+      "difficulty": 3,
+      "category": "Malzeme",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000fe",
+      "clue": "İki değişken arasındaki birlikte değişim ilişkisi",
+      "extendedClue": "Biri artarken diğerinin nasıl değiştiğini gösteren ölçü",
+      "answer": "KORELASY",
+      "difficulty": 5,
+      "category": "İstatistik",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-0000000000ff",
+      "clue": "Teoriye dayalı olan",
+      "extendedClue": "Uygulamadan çok düşünsel modelle ilgili nitelik",
+      "answer": "KURAMSAL",
+      "difficulty": 3,
+      "category": "Bilim",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000100",
+      "clue": "Kayaçların fiziksel özelliklerini inceleyen alan",
+      "extendedClue": "Renk, doku ve mineral yapısını değerlendiren jeoloji dalı",
+      "answer": "LİTOLOJİ",
+      "difficulty": 5,
+      "category": "Jeoloji",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000101",
+      "clue": "Çıplak gözle gözlenebilir ölçekle ilgili",
+      "extendedClue": "Mikroskobik olmayan büyük düzeyde inceleme anlamı taşır",
+      "answer": "MAKROSKOP",
+      "difficulty": 5,
+      "category": "Bilim",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000102",
+      "clue": "Yer ve alan ilişkileriyle ilgili olan",
+      "extendedClue": "Bir nesnenin konum, uzaklık ve yön bağlamındaki niteliği",
+      "answer": "MEKANSAL",
+      "difficulty": 3,
+      "category": "Geometri",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000103",
+      "clue": "Yazılı anlatıların çoğul adı",
+      "extendedClue": "İnceleme konusu olan yazılı eserler bütünü",
+      "answer": "METİNLER",
+      "difficulty": 2,
+      "category": "Edebiyat",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000104",
+      "clue": "Düzenli tempo veren araç",
+      "extendedClue": "Müzisyenlerin ritim tutmak için kullandığı mekanik veya dijital alet",
+      "answer": "METRONOM",
+      "difficulty": 4,
+      "category": "Müzik",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000105",
+      "clue": "Çok küçük varlıkları büyüterek gösteren araç",
+      "extendedClue": "Hücre ve mikroorganizmaların incelenmesini sağlar",
+      "answer": "MİKROSKOP",
+      "difficulty": 3,
+      "category": "Bilim",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000106",
+      "clue": "Sebep sonuç ilişkisine dayalı olan",
+      "extendedClue": "Bir olayın başka bir olayı doğurmasını anlatır",
+      "answer": "NEDENSEL",
+      "difficulty": 4,
+      "category": "Felsefe",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000107",
+      "clue": "Sinir sistemi hastalıklarını inceleyen alan",
+      "extendedClue": "Beyin, omurilik ve sinirlerle ilgilenen tıp dalı",
+      "answer": "NÖROLOJİ",
+      "difficulty": 3,
+      "category": "Tıp",
+      "letterCount": 8
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000108",
+      "clue": "Bir şeyin meydana gelme süreci",
+      "extendedClue": "Parçaların birleşerek yeni yapı oluşturması",
+      "answer": "OLUŞUM",
+      "difficulty": 2,
+      "category": "Bilim",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000109",
+      "clue": "Maddenin iyonlaşmış gaz hali",
+      "extendedClue": "Yıldızlarda ve bazı teknolojilerde görülen dördüncü hal",
+      "answer": "PLAZMA",
+      "difficulty": 4,
+      "category": "Fizik",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000010a",
+      "clue": "Düzenli vuruşlara sahip olan",
+      "extendedClue": "Zaman içinde ölçülü tekrar eden ses ya da hareket",
+      "answer": "RİTMİK",
+      "difficulty": 3,
+      "category": "Müzik",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000010b",
+      "clue": "Merkezden açılarak dönen eğri biçimi",
+      "extendedClue": "Spiral olarak da bilinen kıvrımlı yapı",
+      "answer": "SARMAL",
+      "difficulty": 3,
+      "category": "Geometri",
+      "letterCount": 6
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000010c",
+      "clue": "Kelime düzeyinde olan",
+      "extendedClue": "Dil incelemesinde sözcük varlığıyla ilgili nitelik",
+      "answer": "SÖZCÜKSEL",
+      "difficulty": 4,
+      "category": "Dil",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000010d",
+      "clue": "Harf düzenleme ve yazı tasarımı sanatı",
+      "extendedClue": "Font, aralık ve sayfa düzeniyle görsel anlatım oluşturur",
+      "answer": "TİPOGRAFİ",
+      "difficulty": 5,
+      "category": "Tasarım",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000010e",
+      "clue": "Toplumla ilgili olan",
+      "extendedClue": "Bireyler arası ilişki ve kurumları anlatan nitelik",
+      "answer": "TOPLUMSAL",
+      "difficulty": 2,
+      "category": "Sosyoloji",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000010f",
+      "clue": "Tekil örneklerden genel sonuca ulaşma yöntemi",
+      "extendedClue": "Gözlemlerden genel kural çıkaran akıl yürütme biçimi",
+      "answer": "TÜMEVARIM",
+      "difficulty": 5,
+      "category": "Mantık",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000110",
+      "clue": "İnsanı kültürel ve biyolojik yönleriyle inceleyen alanın kökü",
+      "extendedClue": "Toplum, kültür ve insan evrimi araştırmalarını çağrıştırır",
+      "answer": "ANTROPOLO",
+      "difficulty": 5,
+      "category": "Bilim",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000111",
+      "clue": "Resmi işleyiş ve memurlar düzeni",
+      "extendedClue": "Devlet kurumlarının kurallı ve hiyerarşik yapısı",
+      "answer": "BÜROKRASİ",
+      "difficulty": 4,
+      "category": "Siyaset",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000112",
+      "clue": "Karşıtlıklar yoluyla düşünme yöntemini çağrıştıran terim",
+      "extendedClue": "Tez ve antitez ilişkisiyle gelişen düşünce biçimi",
+      "answer": "DİYALEKTİ",
+      "difficulty": 5,
+      "category": "Felsefe",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000113",
+      "clue": "Canlılar ve çevrelerinin oluşturduğu bütün",
+      "extendedClue": "Toprak, su, hava ve canlı ilişkilerinin toplamı",
+      "answer": "EKOSİSTEM",
+      "difficulty": 3,
+      "category": "Biyoloji",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000114",
+      "clue": "Sorgulayıcı ve değerlendirmeye dayalı olan",
+      "extendedClue": "Bir düşünceyi kabul etmeden önce irdeleyen yaklaşım",
+      "answer": "ELEŞTİREL",
+      "difficulty": 4,
+      "category": "Felsefe",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000115",
+      "clue": "Genel fiyat düzeyinin sürekli artması",
+      "extendedClue": "Paranın satın alma gücünün düşmesiyle ilişkili süreç",
+      "answer": "ENFLASYON",
+      "difficulty": 3,
+      "category": "Ekonomi",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000116",
+      "clue": "Bir girdiye tek çıktı atayan bağıntı",
+      "extendedClue": "Değişkenler arasındaki düzenli ilişkiyi gösterir",
+      "answer": "FONKSİYON",
+      "difficulty": 3,
+      "category": "Matematik",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000117",
+      "clue": "Gök cisimlerini incelemek için kurulan yapı",
+      "extendedClue": "Teleskoplarla donatılmış araştırma merkezi",
+      "answer": "GÖZLEMEVİ",
+      "difficulty": 3,
+      "category": "Astronomi",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000118",
+      "clue": "Haber toplama ve yayımlama mesleğini çağrıştıran kök",
+      "extendedClue": "Kamuoyunu bilgilendirmeye yönelik yayın faaliyeti",
+      "answer": "HABERCİLİ",
+      "difficulty": 4,
+      "category": "Medya",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000119",
+      "clue": "Yeryüzündeki suları inceleyen bilim",
+      "extendedClue": "Akarsu, göl, yağış ve yer altı sularını araştırır",
+      "answer": "HİDROLOJİ",
+      "difficulty": 4,
+      "category": "Coğrafya",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000011a",
+      "clue": "Verileri toplama ve yorumlama alanının kökü",
+      "extendedClue": "Olasılık ve veri analiziyle ilgili bilim dalını çağrıştırır",
+      "answer": "İSTATİSTİ",
+      "difficulty": 4,
+      "category": "Matematik",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000011b",
+      "clue": "Kavram düzeyinde olan",
+      "extendedClue": "Somut örnekten çok düşünsel çerçeveye ait nitelik",
+      "answer": "KAVRAMSAL",
+      "difficulty": 4,
+      "category": "Felsefe",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000011c",
+      "clue": "Genel uzlaşma veya ortak görüş",
+      "extendedClue": "Tarafların çoğunlukla aynı noktada buluşması",
+      "answer": "KONSENSÜS",
+      "difficulty": 4,
+      "category": "Siyaset",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000011d",
+      "clue": "Olayları zaman sırasına göre dizme",
+      "extendedClue": "Geçmiş gelişmeleri tarihsel sırayla gösterme yöntemi",
+      "answer": "KRONOLOJİ",
+      "difficulty": 3,
+      "category": "Tarih",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000011e",
+      "clue": "Cisimlerin birbirini çekmesini anlatan kavram kökü",
+      "extendedClue": "Yerçekimini de kapsayan temel doğa kuvveti",
+      "answer": "KÜTLEÇEKİ",
+      "difficulty": 5,
+      "category": "Fizik",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000011f",
+      "clue": "Ekonomiyi büyük ölçekli inceleyen alanı çağrıştırır",
+      "extendedClue": "Milli gelir, işsizlik ve enflasyon gibi toplam göstergelerle ilgilidir",
+      "answer": "MAKROEKON",
+      "difficulty": 5,
+      "category": "Ekonomi",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000120",
+      "clue": "Akıl yürütme kurallarına uygun olan",
+      "extendedClue": "Çelişkisiz ve çıkarım zinciri kurabilen nitelik",
+      "answer": "MANTIKSAL",
+      "difficulty": 4,
+      "category": "Mantık",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000121",
+      "clue": "Canlıdaki kimyasal dönüşümlerle ilgili",
+      "extendedClue": "Enerji üretimi ve madde yıkımı süreçlerine ait",
+      "answer": "METABOLİK",
+      "difficulty": 4,
+      "category": "Biyoloji",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000122",
+      "clue": "Mineralleri inceleyen bilim alanını çağrıştıran kök",
+      "extendedClue": "Kristal yapı ve mineral özellikleriyle ilgilidir",
+      "answer": "MİNERALOJ",
+      "difficulty": 5,
+      "category": "Jeoloji",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000123",
+      "clue": "Çok küçük ölçekte teknoloji geliştirme alanı kökü",
+      "extendedClue": "Atom ve molekül düzeyinde tasarım fikrini çağrıştırır",
+      "answer": "NANOTEKNO",
+      "difficulty": 5,
+      "category": "Teknoloji",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000124",
+      "clue": "Asit veya baz etkisini gidermeyle ilgili",
+      "extendedClue": "Tepkime sonucu etkisiz hale getirme işlemi",
+      "answer": "NÖTRALİZE",
+      "difficulty": 4,
+      "category": "Kimya",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000125",
+      "clue": "Yaşayan bireysel canlı varlık",
+      "extendedClue": "Tek hücreli ya da çok hücreli yaşam birimi",
+      "answer": "ORGANİZMA",
+      "difficulty": 3,
+      "category": "Biyoloji",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000126",
+      "clue": "Sistemin davranışını belirleyen değişken",
+      "extendedClue": "Modelin sonucunu etkileyen sabit veya ayarlanabilir değer",
+      "answer": "PARAMETRE",
+      "difficulty": 3,
+      "category": "Matematik",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000127",
+      "clue": "Derinlik algısı veren çizim tekniğinin kökü",
+      "extendedClue": "Resimde uzak ve yakın ilişkisini düzenleyen yöntem",
+      "answer": "PERSPEKTİ",
+      "difficulty": 5,
+      "category": "Sanat",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000128",
+      "clue": "İkna edici anlatımla ilişkili nitelik kökü",
+      "extendedClue": "Söz sanatları ve etkili konuşma alanını çağrıştırır",
+      "answer": "RETORİKSE",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-000000000129",
+      "clue": "Bir dili belirli bir zaman kesitinde inceleyen",
+      "extendedClue": "Tarihsel gelişime değil aynı andaki yapıya odaklanan yaklaşım",
+      "answer": "SENKRONİK",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000012a",
+      "clue": "Düzenli sınıflandırma yöntemiyle ilgili kök",
+      "extendedClue": "Bilgiyi belirli ilkelerle organize eden yaklaşım",
+      "answer": "SİSTEMATİ",
+      "difficulty": 5,
+      "category": "Bilim",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000012b",
+      "clue": "Bilimsel bilginin uygulamaya dönüşmüş hali",
+      "extendedClue": "Araç, yöntem ve sistem geliştirme alanı",
+      "answer": "TEKNOLOJİ",
+      "difficulty": 2,
+      "category": "Teknoloji",
+      "letterCount": 9
+    },
+    {
+      "id": "22222222-2222-2222-2222-00000000012c",
+      "clue": "Bir alana özgü terimler bütününü çağrıştıran kök",
+      "extendedClue": "Meslek veya bilim dalının özel kelime varlığı",
+      "answer": "TERMİNOLO",
+      "difficulty": 5,
+      "category": "Dil",
+      "letterCount": 9
+    },
   {
     "id": "11111111-1111-1111-1111-111111111148",
     "clue": "Sahnede müzik yöneten kişi",

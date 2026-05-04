@@ -6,6 +6,7 @@ enum GameAnimationEvent: Equatable {
     case correct(word: String, points: Int)
     case wrong(word: String)
     case timeout(word: String)
+    case failed(word: String, penalty: Int)
     case insufficientCoins
     case lowTime(Bool)
     case joker(JokerType)
@@ -30,6 +31,7 @@ final class GameViewModel: ObservableObject {
     @Published private(set) var isTimeFrozen: Bool = false
     @Published private(set) var isShowingExtendedClue: Bool = false
     @Published private(set) var coins: Int = 0
+    @Published private(set) var jokerInventory: [JokerType: Int] = [:]
     @Published private(set) var coinMessage: String?
     @Published private(set) var lastChallengeCoinReward: Int = 0
     @Published private(set) var result: GameResult?
@@ -44,6 +46,7 @@ final class GameViewModel: ObservableObject {
     private var answerTimerTask: Task<Void, Never>?
     private var advanceTask: Task<Void, Never>?
     private var freezeTask: Task<Void, Never>?
+    private var autoFailTask: Task<Void, Never>?
     private var questionRevision = UUID()
     private var hasPlayedTension = false
 
@@ -69,6 +72,7 @@ final class GameViewModel: ObservableObject {
         answerTimerTask?.cancel()
         advanceTask?.cancel()
         freezeTask?.cancel()
+        autoFailTask?.cancel()
     }
 
     var jokerCost: Int { 12 }
@@ -129,7 +133,7 @@ final class GameViewModel: ObservableObject {
     }
 
     var canExtendClassicClue: Bool {
-        mode == .classic && !isShowingExtendedClue && result == nil
+        mode == .classic && !isShowingExtendedClue && result == nil && inventoryCount(for: .extendClue) > 0
     }
 
     var challengeTitle: String? {
@@ -141,6 +145,7 @@ final class GameViewModel: ObservableObject {
         answerTimerTask?.cancel()
         advanceTask?.cancel()
         freezeTask?.cancel()
+        autoFailTask?.cancel()
         answerWindowRemaining = 0
         answerText = ""
         animationEvent = nil
@@ -158,6 +163,7 @@ final class GameViewModel: ObservableObject {
         currentIndex = 0
         score = 0
         coins = scoreService.coins
+        refreshJokerInventory()
         coinMessage = nil
         lastChallengeCoinReward = 0
         correctCount = 0
@@ -195,6 +201,11 @@ final class GameViewModel: ObservableObject {
 
     func extendClassicClue() {
         guard canExtendClassicClue else { return }
+        guard scoreService.spendInventory(for: .extendClue) else {
+            refreshJokerInventory()
+            return
+        }
+        refreshJokerInventory()
         isShowingExtendedClue = true
         soundService.playJoker()
         animationEvent = .joker(.extendClue)
@@ -233,25 +244,26 @@ final class GameViewModel: ObservableObject {
     }
 
     func useJoker(_ joker: JokerType) {
-        guard mode == .challenge, !usedJokers.contains(joker), result == nil else { return }
-        guard scoreService.spendCoins(jokerCost) else {
-            coinMessage = "Yetersiz altın. Reklam izleyerek +6 altın kazanabilirsin."
+        guard mode == .challenge, result == nil, isJokerEnabled(joker) else { return }
+        guard scoreService.spendInventory(for: joker) else {
+            coinMessage = "Bu joker hakkın yok. Mağazadan altınla alabilirsin."
             soundService.playInsufficientCoins()
             animationEvent = .insufficientCoins
+            refreshJokerInventory()
             return
         }
-        coins = scoreService.coins
+        refreshJokerInventory()
 
         switch joker {
         case .revealLetter:
             guard hasHiddenLetter else {
-                refundJokerCost()
+                refundJokerInventory(joker)
                 return
             }
             revealLetter()
         case .firstLetter:
             guard !openedIndices.contains(0) else {
-                refundJokerCost()
+                refundJokerInventory(joker)
                 return
             }
             openLetter(at: 0, countsAsReveal: true)
@@ -279,7 +291,7 @@ final class GameViewModel: ObservableObject {
     }
 
     func isJokerEnabled(_ joker: JokerType) -> Bool {
-        guard mode == .challenge, !usedJokers.contains(joker) else { return false }
+        guard mode == .challenge, inventoryCount(for: joker) > 0 else { return false }
         switch joker {
         case .revealLetter: return hasHiddenLetter
         case .firstLetter: return !openedIndices.contains(0)
@@ -287,6 +299,10 @@ final class GameViewModel: ObservableObject {
         case .freezeTime: return !isTimeFrozen
         case .extendClue: return !isShowingExtendedClue
         }
+    }
+
+    func inventoryCount(for joker: JokerType) -> Int {
+        jokerInventory[joker, default: 0]
     }
 
     private var hasHiddenLetter: Bool {
@@ -303,8 +319,13 @@ final class GameViewModel: ObservableObject {
         return question.answer.turkishLetters.indices.filter { !openedIndices.contains($0) }.count
     }
 
-    private func refundJokerCost() {
-        scoreService.addCoins(jokerCost)
+    private func refundJokerInventory(_ joker: JokerType) {
+        scoreService.addInventory(1, for: joker)
+        refreshJokerInventory()
+    }
+
+    private func refreshJokerInventory() {
+        jokerInventory = Dictionary(uniqueKeysWithValues: JokerType.allCases.map { ($0, scoreService.inventoryCount(for: $0)) })
         coins = scoreService.coins
     }
 
@@ -317,6 +338,34 @@ final class GameViewModel: ObservableObject {
         answerText = String(answerText.turkishLetters.prefix(maxHiddenLetterCount).joined())
         soundService.playLetterReveal()
         animationEvent = .reveal(index: index, letter: question.answer.turkishLetters[index])
+        if countsAsReveal && !hasHiddenLetter {
+            scheduleFullyRevealedFailure()
+        }
+    }
+
+    private func scheduleFullyRevealedFailure() {
+        let revision = questionRevision
+        autoFailTask?.cancel()
+        autoFailTask = Task { [weak self] in
+            try? await Task.sleep(for: .seconds(0.75))
+            await MainActor.run {
+                guard self?.questionRevision == revision else { return }
+                self?.failFullyRevealedQuestion()
+            }
+        }
+    }
+
+    private func failFullyRevealedQuestion() {
+        guard let question = currentQuestion, result == nil, !hasHiddenLetter else { return }
+        answerTimerTask?.cancel()
+        answerWindowRemaining = 0
+        wrongCount += 1
+        score = max(0, score - 100)
+        soundService.playWrong()
+        openedIndices = Set(question.answer.turkishLetters.indices)
+        answerText = ""
+        animationEvent = .failed(word: question.answer, penalty: 100)
+        moveToNextQuestionAfterDelay(seconds: 1.55)
     }
 
     private func removeWrongKeyboardLetters() {
@@ -435,6 +484,7 @@ final class GameViewModel: ObservableObject {
     private func prepareCurrentQuestion() {
         questionRevision = UUID()
         answerTimerTask?.cancel()
+        autoFailTask?.cancel()
         answerWindowRemaining = 0
         openedIndices = []
         answerText = ""
@@ -451,6 +501,7 @@ final class GameViewModel: ObservableObject {
         answerTimerTask?.cancel()
         advanceTask?.cancel()
         freezeTask?.cancel()
+        autoFailTask?.cancel()
 
         let stars = mode == .challenge ? calculateStars() : 0
         lastChallengeCoinReward = mode == .challenge ? calculateCoinReward(stars: stars) : 0
