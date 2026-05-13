@@ -4,6 +4,9 @@ final class GameScene: SKScene {
     private var tiles: [LetterTileNode] = []
     private let backgroundNode = SKShapeNode()
     private let scoreLabel = SKLabelNode(fontNamed: "AvenirNext-Heavy")
+    private let wordRevealActionKey = "wordReveal"
+    private let letterRevealActionKey = "letterReveal"
+    private var tileSkin: TileSkin = .classicBlue
 
     override init(size: CGSize) {
         super.init(size: size)
@@ -24,24 +27,36 @@ final class GameScene: SKScene {
         setupScoreLabel()
     }
 
-    func configure(wordLength: Int) {
+    func configure(wordLength: Int, skin: TileSkin = .classicBlue) {
+        tileSkin = skin
+        removeAction(forKey: wordRevealActionKey)
+        removeAction(forKey: letterRevealActionKey)
+        scoreLabel.removeAllActions()
+        scoreLabel.text = ""
+        scoreLabel.alpha = 0
         tiles.forEach { $0.removeFromParent() }
         tiles = []
 
         guard wordLength > 0 else { return }
 
-        let spacing: CGFloat = 8
+        let spacing: CGFloat = wordLength >= 9 ? 5 : 8
         let maxTileWidth = (size.width - CGFloat(wordLength - 1) * spacing - 24) / CGFloat(wordLength)
-        let tileSide = min(maxTileWidth, 46)
+        let tileSide = min(maxTileWidth, wordLength >= 9 ? 42 : 46)
         let totalWidth = CGFloat(wordLength) * tileSide + CGFloat(wordLength - 1) * spacing
         let startX = (size.width - totalWidth) / 2 + tileSide / 2
 
         for index in 0..<wordLength {
             let tile = LetterTileNode(size: CGSize(width: tileSide, height: tileSide))
+            tile.applySkin(tileSkin)
             tile.position = CGPoint(x: startX + CGFloat(index) * (tileSide + spacing), y: size.height * 0.58)
             addChild(tile)
             tiles.append(tile)
         }
+    }
+
+    func applySkin(_ skin: TileSkin) {
+        tileSkin = skin
+        tiles.forEach { $0.applySkin(skin) }
     }
 
     func revealLetter(at index: Int, letter: String) {
@@ -60,7 +75,7 @@ final class GameScene: SKScene {
             self?.tiles[index].setLetter(letter, animated: true)
             self?.tiles[index].glow(color: SKColor(red: 1.0, green: 0.73, blue: 0.1, alpha: 1))
         })
-        run(.sequence(actions))
+        run(.sequence(actions), withKey: letterRevealActionKey)
     }
 
     func playCorrect(points: Int) {
@@ -84,21 +99,27 @@ final class GameScene: SKScene {
     }
 
     private func revealWord(_ word: String, points: Int, color: SKColor, showPoints: Bool) {
+        removeAction(forKey: wordRevealActionKey)
+        removeAction(forKey: letterRevealActionKey)
+        var actions: [SKAction] = []
+
         for (index, letter) in word.turkishLetters.enumerated() where tiles.indices.contains(index) {
             let wait = SKAction.wait(forDuration: Double(index) * 0.045)
             let reveal = SKAction.run { [weak self] in
                 self?.tiles[index].setLetter(letter, animated: true)
                 self?.tiles[index].glow(color: color)
             }
-            run(.sequence([wait, reveal]))
+            actions.append(.sequence([wait, reveal]))
         }
 
         if showPoints {
-            run(.sequence([
+            actions.append(.sequence([
                 .wait(forDuration: Double(word.count) * 0.045 + 0.1),
                 .run { [weak self] in self?.playCorrect(points: points) }
             ]))
         }
+
+        run(.group(actions), withKey: wordRevealActionKey)
     }
 
     func playWrong() {
@@ -141,6 +162,7 @@ final class GameScene: SKScene {
     }
 
     private func setupScoreLabel() {
+        scoreLabel.removeFromParent()
         scoreLabel.fontSize = 32
         scoreLabel.fontColor = SKColor(red: 1.0, green: 0.83, blue: 0.17, alpha: 1)
         scoreLabel.alpha = 0

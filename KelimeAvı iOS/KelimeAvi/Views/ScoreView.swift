@@ -17,6 +17,7 @@ struct ScoreView: View {
                 .buttonStyle(.plain)
                 Spacer()
             }
+            .padding(.top, 72)
 
             Text("Skorlar")
                 .font(.system(size: 38, weight: .black, design: .rounded))
@@ -24,6 +25,7 @@ struct ScoreView: View {
 
             VStack(spacing: 14) {
                 ScoreCard(title: "Klasik Mod", value: "\(scoreService.classicHighScore) puan", icon: "timer")
+                ScoreCard(title: "Günlük Seri", value: "\(scoreService.dailyStreak()) / 10 gün", icon: "flame.fill")
 
                 ForEach(1...5, id: \.self) { level in
                     ScoreCard(
@@ -32,11 +34,53 @@ struct ScoreView: View {
                         icon: "star.fill"
                     )
                 }
+
+                VStack(alignment: .leading, spacing: 10) {
+                    Text("Rozetler")
+                        .font(.headline.weight(.black))
+                        .foregroundStyle(GameTheme.yellow)
+
+                    ForEach(BadgeType.allCases) { badge in
+                        BadgeScoreRow(badge: badge, isUnlocked: scoreService.isBadgeUnlocked(badge))
+                    }
+                }
+                .padding(16)
+                .background(GameTheme.panel, in: RoundedRectangle(cornerRadius: 16))
             }
 
             Spacer()
         }
         .padding(20)
+        .swipeBackGesture(onBack)
+    }
+}
+
+private struct BadgeScoreRow: View {
+    let badge: BadgeType
+    let isUnlocked: Bool
+
+    var body: some View {
+        HStack(spacing: 10) {
+            Image(systemName: badge.iconName)
+                .foregroundStyle(isUnlocked ? GameTheme.yellow : .white.opacity(0.35))
+                .frame(width: 28)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(badge.title)
+                    .font(.subheadline.weight(.black))
+                    .foregroundStyle(isUnlocked ? .white : .white.opacity(0.50))
+                Text(badge.description)
+                    .font(.caption2.weight(.semibold))
+                    .foregroundStyle(.white.opacity(0.54))
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.75)
+            }
+            Spacer()
+            Text("+\(badge.rewardCoins)")
+                .font(.caption.weight(.black))
+                .foregroundStyle(isUnlocked ? GameTheme.yellow : .white.opacity(0.28))
+            Image(systemName: isUnlocked ? "checkmark.seal.fill" : "lock.fill")
+                .foregroundStyle(isUnlocked ? .green : .white.opacity(0.32))
+        }
     }
 }
 

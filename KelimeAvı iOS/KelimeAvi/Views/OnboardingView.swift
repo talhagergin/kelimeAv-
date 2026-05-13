@@ -18,8 +18,8 @@ struct OnboardingView: View {
         ),
         OnboardingPage(
             icon: "crown.fill",
-            title: "Challenge ve Altın",
-            text: "Challenge bölümlerinden altın kazan, jokerleri mağazadan al ve zor sorularda avantaj yarat."
+            title: "Bölüm ve Altın",
+            text: "Bölüm modlarından altın kazan, jokerleri mağazadan al ve zor sorularda avantaj yarat."
         )
     ]
 

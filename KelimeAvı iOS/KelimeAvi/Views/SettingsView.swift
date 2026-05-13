@@ -33,14 +33,9 @@ struct SettingsView: View {
             .padding(16)
             .background(GameTheme.panel, in: RoundedRectangle(cornerRadius: 16))
 
-            Text("İlk MVP sürümünde ayarlar yerel olarak saklanır. Ses sistemi ileride özel efekt dosyalarıyla genişletilmeye hazırdır.")
-                .font(.footnote)
-                .foregroundStyle(.white.opacity(0.68))
-                .multilineTextAlignment(.center)
-                .padding(.horizontal)
-
             Spacer()
         }
         .padding(20)
+        .swipeBackGesture(onBack)
     }
 }

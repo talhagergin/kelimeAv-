@@ -5,6 +5,8 @@ import Foundation
 final class MainMenuViewModel: ObservableObject {
     @Published var classicHighScore: Int = 0
     @Published var coins: Int = 0
+    @Published var dailyStreak: Int = 0
+    @Published var isDailyCompletedToday = false
 
     private let scoreService: ScoreStoring
 
@@ -16,5 +18,7 @@ final class MainMenuViewModel: ObservableObject {
     func refresh() {
         classicHighScore = scoreService.classicHighScore
         coins = scoreService.coins
+        dailyStreak = scoreService.dailyStreak()
+        isDailyCompletedToday = scoreService.isDailyCompletedToday(date: Date())
     }
 }

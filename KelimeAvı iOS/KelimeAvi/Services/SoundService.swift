@@ -9,6 +9,7 @@ protocol SoundPlaying {
     func playLetterReveal()
     func playWordReveal()
     func playJoker()
+    func playPurchase()
     func playInsufficientCoins()
 }
 
@@ -46,6 +47,11 @@ final class SoundService: SoundPlaying {
     func playJoker() {
         AudioServicesPlaySystemSound(1113)
         UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+    }
+
+    func playPurchase() {
+        AudioServicesPlaySystemSound(1025)
+        UINotificationFeedbackGenerator().notificationOccurred(.success)
     }
 
     func playInsufficientCoins() {
